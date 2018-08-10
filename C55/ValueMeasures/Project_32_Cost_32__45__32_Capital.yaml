@@ -1,0 +1,14 @@
+code: "Project Cost - Capital"
+nameId: "Project Cost - Capital"
+descriptionId: "Project Cost - Capital"
+accountTypeName: "Capital"
+color: "#BD2456"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

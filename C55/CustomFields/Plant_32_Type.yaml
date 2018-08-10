@@ -1,0 +1,19 @@
+code: "Plant Type"
+nameId: "Plant Type"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Coal"
+  nameId: "Coal"
+  value: 2
+  isObsolete: false
+- code: "Hydro"
+  nameId: "Hydro"
+  value: 1
+  isObsolete: false
+- code: "Natural Gas"
+  nameId: "Natural Gas"
+  value: 3
+  isObsolete: false

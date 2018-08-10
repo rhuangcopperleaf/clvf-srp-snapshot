@@ -1,0 +1,8 @@
+code: "Lost Redundancy Duration"
+nameId: "Lost Redundancy Duration"
+descriptionId: "What is the average duration of lost redundancy for this load (h)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 1000
+listItems: []

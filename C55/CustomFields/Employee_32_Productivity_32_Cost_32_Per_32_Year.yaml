@@ -1,0 +1,9 @@
+code: "Employee Productivity Cost Per Year"
+nameId: "Employee Productivity Cost Per Year"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 500000
+listItems: []

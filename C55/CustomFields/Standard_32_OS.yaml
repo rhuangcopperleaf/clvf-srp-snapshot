@@ -1,0 +1,6 @@
+code: "Standard OS"
+nameId: "Standard OS"
+descriptionId: ""
+type: "CheckBox"
+isCloneable: true
+listItems: []

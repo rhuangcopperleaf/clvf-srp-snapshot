@@ -1,0 +1,38 @@
+code: "Call Center Benefit"
+nameId: "Call Center Benefit"
+descriptionId: "Call Center Benefit"
+groupCode: "Customer Service"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Call Center Benefit"
+  nameId: "Call Center Benefit"
+  valueMeasureCode: "Call Center Benefit"
+  sequence: 1
+questionnaires:
+- code: "CallCenterBenefit-O"
+  nameId: "Call Center Benefit"
+  descriptionId: "Call Center Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Avoided Inquiries"
+    sequence: 1
+  - measurePromptCode: "Agent Time Saved"
+    sequence: 3
+  - measurePromptCode: "Self Service Resolutions"
+    sequence: 4
+  - measurePromptCode: "Resolved First Contact"
+    sequence: 5
+  - measurePromptCode: "Low Effort Resolutions"
+    sequence: 6
+  - measurePromptCode: "Benefit Probability"
+    sequence: 7
+  - measurePromptCode: "Rationale"
+    sequence: 8
+  formulas:
+  - measureCode: "Call Center Benefit"
+    consequenceClassName: "CustomerServiceConsequence"
+    likelihoodClassName: "BenefitLikelihood"

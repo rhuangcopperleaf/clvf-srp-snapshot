@@ -1,0 +1,9 @@
+code: "Risk Avoidance Probability"
+descriptionId: ""
+customFieldCode: "Risk Avoidance Probability"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of avoiding this risk? (%)"
+defaultValue: "100"

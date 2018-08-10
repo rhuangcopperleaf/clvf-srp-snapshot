@@ -1,0 +1,9 @@
+code: "Seconds to Close Call"
+nameId: "Seconds to Close Call"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 10000
+listItems: []

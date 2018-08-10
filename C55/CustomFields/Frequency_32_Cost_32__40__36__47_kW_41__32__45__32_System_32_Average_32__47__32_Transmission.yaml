@@ -1,0 +1,9 @@
+code: "Frequency Cost ($/kW) - System Average / Transmission"
+nameId: "Frequency Cost ($/kW) - System Average / Transmission"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 1000
+listItems: []

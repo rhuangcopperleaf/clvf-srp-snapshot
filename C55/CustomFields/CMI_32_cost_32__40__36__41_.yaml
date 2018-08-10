@@ -1,0 +1,9 @@
+code: "CMI cost ($)"
+nameId: "CMI cost ($)"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 100
+listItems: []

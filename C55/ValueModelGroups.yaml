@@ -1,0 +1,24 @@
+- code: "Environmental Stewardship"
+  nameId: "Environmental Stewardship"
+  descriptionId: "Environmental Stewardship"
+  sequence: 1
+- code: "Employee & Public Perception"
+  nameId: "Employee & Public Perception"
+  descriptionId: "Employee & Public Perception"
+  sequence: 2
+- code: "Safety & Regulatory"
+  nameId: "Safety & Regulatory"
+  descriptionId: "Safety & Regulatory"
+  sequence: 3
+- code: "Customer Service"
+  nameId: "Customer Service"
+  descriptionId: "Customer Service"
+  sequence: 4
+- code: "Reliability"
+  nameId: "Reliability"
+  descriptionId: "Reliability"
+  sequence: 5
+- code: "Financial"
+  nameId: "Financial"
+  descriptionId: "Financial"
+  sequence: 10

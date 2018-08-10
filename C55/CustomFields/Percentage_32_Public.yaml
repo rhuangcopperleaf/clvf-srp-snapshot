@@ -1,0 +1,9 @@
+code: "Percentage Public"
+nameId: "Percentage Public"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

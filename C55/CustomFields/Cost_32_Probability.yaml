@@ -1,0 +1,9 @@
+code: "Cost Probability"
+nameId: "Cost Probability"
+descriptionId: "What is the probability of incurring this cost? (%)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

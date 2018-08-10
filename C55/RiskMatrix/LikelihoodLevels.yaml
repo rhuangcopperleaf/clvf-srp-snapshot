@@ -1,0 +1,53 @@
+- code: "None"
+  nameId: "None"
+  defaultDescriptionId: "Event unlikely to occur in next 1000 years"
+  maxProbability: 0.001
+  averageProbability: 0
+  measureDescriptions: []
+- code: "Very Rare"
+  nameId: "Very Rare"
+  defaultDescriptionId: "Greater than 0.1% chance of event occurring this year (e.g.\
+    \ 1 in 1000 year event)"
+  maxProbability: 0.003
+  averageProbability: 0.002
+  measureDescriptions: []
+- code: "Rare"
+  nameId: "Rare"
+  defaultDescriptionId: "Greater than 0.3% chance of event occurring this year (e.g.\
+    \ 1 in 333 year event)"
+  maxProbability: 0.01
+  averageProbability: 0.007
+  measureDescriptions: []
+- code: "Unlikely"
+  nameId: "Unlikely"
+  defaultDescriptionId: "Greater than 1% chance of event occurring this year (e.g.\
+    \ 1 in 100 year event)"
+  maxProbability: 0.03
+  averageProbability: 0.02
+  measureDescriptions: []
+- code: "Somewhat Likely"
+  nameId: "Somewhat Likely"
+  defaultDescriptionId: "Greater than 3% chance of event occurring this year (e.g.\
+    \ 1 in 33 year event)"
+  maxProbability: 0.1
+  averageProbability: 0.065
+  measureDescriptions: []
+- code: "Likely"
+  nameId: "Likely"
+  defaultDescriptionId: "Greater than 10% chance of event occurring this year (e.g.\
+    \ 1 in 10 year event)"
+  maxProbability: 0.3
+  averageProbability: 0.2
+  measureDescriptions: []
+- code: "Very Likely"
+  nameId: "Very Likely"
+  defaultDescriptionId: "Greater than 30% chance of event occurring this year"
+  maxProbability: 0.95
+  averageProbability: 0.625
+  measureDescriptions: []
+- code: "Almost Certain"
+  nameId: "Almost Certain"
+  defaultDescriptionId: "Imminent (>95% chance of occurring this year)"
+  maxProbability: 1
+  averageProbability: 0.975
+  measureDescriptions: []

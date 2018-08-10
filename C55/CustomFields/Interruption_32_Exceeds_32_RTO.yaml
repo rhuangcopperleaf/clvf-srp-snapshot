@@ -1,0 +1,6 @@
+code: "Interruption Exceeds RTO"
+nameId: "Interruption Exceeds RTO"
+descriptionId: "Interruption Exceeds RTO"
+type: "CheckBox"
+isCloneable: true
+listItems: []

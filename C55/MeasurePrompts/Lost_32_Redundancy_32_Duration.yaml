@@ -1,0 +1,9 @@
+code: "Lost Redundancy Duration"
+descriptionId: ""
+customFieldCode: "Lost Redundancy Duration"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected average duration for which redundancy will be\
+  \ lost?"

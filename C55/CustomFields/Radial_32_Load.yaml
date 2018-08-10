@@ -1,0 +1,9 @@
+code: "Radial Load"
+nameId: "Radial Load"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 4
+isCurrencyValue: false
+maximumNumber: 100000
+listItems: []

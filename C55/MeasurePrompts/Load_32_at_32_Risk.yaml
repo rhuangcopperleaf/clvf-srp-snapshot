@@ -1,0 +1,10 @@
+code: "Load at Risk"
+descriptionId: "If generation could not be curtailed, how much load would be lost\
+  \ if the major issue occurred?"
+customFieldCode: "Load at Risk"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "If the Major Impact"
+promptTextId: "If the Major Impact would impact transmission or distribution, approximately\
+  \ how much load is at risk? (MW)"

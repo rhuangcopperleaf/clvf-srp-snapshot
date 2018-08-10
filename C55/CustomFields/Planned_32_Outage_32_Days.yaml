@@ -1,0 +1,9 @@
+code: "Planned Outage Days"
+nameId: "Planned Outage Days"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 1000
+listItems: []

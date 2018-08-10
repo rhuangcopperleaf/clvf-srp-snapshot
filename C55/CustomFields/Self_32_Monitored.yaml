@@ -1,0 +1,6 @@
+code: "Self Monitored"
+nameId: "Self Monitored"
+descriptionId: ""
+type: "CheckBox"
+isCloneable: true
+listItems: []

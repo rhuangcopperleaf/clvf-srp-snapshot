@@ -1,0 +1,9 @@
+code: "Additional Failures Required"
+descriptionId: "Number of additional assets that would need to fail before there is\
+  \ a material consequence."
+customFieldCode: "Additional Failures Required"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "How many additional"
+promptTextId: "How many additional elements have to fail before there is a Major Impact?"

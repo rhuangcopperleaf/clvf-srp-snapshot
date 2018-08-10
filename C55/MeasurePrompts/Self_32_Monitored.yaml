@@ -1,0 +1,9 @@
+code: "Self Monitored"
+descriptionId: "Does the device monitor its health and report back?"
+customFieldCode: "Self Monitored"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Is the device health"
+promptTextId: "Is the device health self-monitored?"
+defaultValue: "0"

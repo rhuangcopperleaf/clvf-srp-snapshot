@@ -1,0 +1,8 @@
+code: "Outage Window"
+descriptionId: "Number of months per year that an outage window is available."
+customFieldCode: "Outage Window"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many months/year"
+promptTextId: "How many months/year is an outage window available?"

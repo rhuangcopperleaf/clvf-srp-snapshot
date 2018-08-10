@@ -1,0 +1,9 @@
+code: "Number of Assets"
+nameId: "Number of Assets"
+descriptionId: "Number Employees"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 1000000000
+listItems: []

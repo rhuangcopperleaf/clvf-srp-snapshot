@@ -1,0 +1,14 @@
+code: "Project Cost - OMA"
+nameId: "Project Cost - OMA"
+descriptionId: "Project Cost - OMA"
+accountTypeName: "OMA"
+color: "#BD2458"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

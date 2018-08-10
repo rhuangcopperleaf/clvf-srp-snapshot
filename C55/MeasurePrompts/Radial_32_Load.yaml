@@ -1,0 +1,9 @@
+code: "Radial Load"
+descriptionId: "What is the total load on a radial feeder to accommodate this outage?"
+customFieldCode: "Radial Load"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the anticipa"
+promptTextId: "What is the anticipated total load (residential + commercial + industrial)\
+  \ on a radial feed to accommodate this planned outage (MW)?"

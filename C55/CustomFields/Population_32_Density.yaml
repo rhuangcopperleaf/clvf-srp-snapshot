@@ -1,0 +1,23 @@
+code: "Population Density"
+nameId: "Population Density"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Freeway Crossing"
+  nameId: "Freeway Crossing"
+  value: 1
+  isObsolete: false
+- code: "Rural"
+  nameId: "Rural"
+  value: 0.01
+  isObsolete: false
+- code: "Suburban"
+  nameId: "Suburban"
+  value: 0.1
+  isObsolete: false
+- code: "Urban"
+  nameId: "Urban"
+  value: 0.3
+  isObsolete: false

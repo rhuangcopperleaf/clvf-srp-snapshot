@@ -1,0 +1,10 @@
+code: "Additional Costs"
+descriptionId: "Anticipated yearly additional costs. This should also include additional\
+  \ labor that would be needed as a result of implementing the project."
+customFieldCode: "Additional Costs"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Additional Costs"
+promptTextId: "What are the anticipated yearly additional costs that would result\
+  \ from implementing this project?"

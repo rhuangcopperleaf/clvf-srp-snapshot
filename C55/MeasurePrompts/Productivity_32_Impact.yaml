@@ -1,0 +1,8 @@
+code: "Productivity Impact"
+descriptionId: ""
+customFieldCode: "Productivity Impact"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What would be the im"
+promptTextId: "What would be the impact on each employee?"

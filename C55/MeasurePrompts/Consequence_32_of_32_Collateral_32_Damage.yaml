@@ -1,0 +1,8 @@
+code: "Consequence of Collateral Damage"
+descriptionId: ""
+customFieldCode: "Consequence of Collateral Damage"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the estimate"
+promptTextId: "What is the estimated collateral damage?"

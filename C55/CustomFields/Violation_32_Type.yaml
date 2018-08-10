@@ -1,0 +1,23 @@
+code: "Violation Type"
+nameId: "Violation Type"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "BES violation for n-1 P0-P7 events"
+  nameId: "A) BES violation for n-1 P0-P7 events"
+  value: 1
+  isObsolete: false
+- code: "Breaker-to-Breaker load greater than 60MW"
+  nameId: "D) Breaker-to-Breaker load greater than 60MW"
+  value: 4
+  isObsolete: false
+- code: "Non-BES violation for P0-P1 events"
+  nameId: "B) Non-BES violation for P0-P1 events"
+  value: 2
+  isObsolete: false
+- code: "Non-BES violation for P3 or P6 events"
+  nameId: "C) Non-BES violation for P3 or P6 events"
+  value: 3
+  isObsolete: false

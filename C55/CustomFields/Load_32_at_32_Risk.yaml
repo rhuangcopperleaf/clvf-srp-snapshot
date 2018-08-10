@@ -1,0 +1,9 @@
+code: "Load at Risk"
+nameId: "Load at Risk"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 10000000
+listItems: []

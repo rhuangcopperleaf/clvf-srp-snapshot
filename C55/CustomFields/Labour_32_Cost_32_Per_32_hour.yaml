@@ -1,0 +1,9 @@
+code: "Labour Cost Per hour"
+nameId: "Labour Cost Per hour"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 1000
+listItems: []

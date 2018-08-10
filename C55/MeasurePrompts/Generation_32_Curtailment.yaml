@@ -1,0 +1,10 @@
+code: "Generation Curtailment"
+descriptionId: "How much total generation would need to be curtailed in order mitigate\
+  \ the major issue?"
+customFieldCode: "Generation Curtailment"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "If the Major Impact"
+promptTextId: "If the Major Impact would cause generation curtailment, then how much\
+  \ generation would be curtailed? (MW)"

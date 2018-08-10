@@ -1,0 +1,10 @@
+code: "Number of Sensitive Customers"
+descriptionId: "Sensitive customers are customers served by a dedicated industrial\
+  \ substation (see: https://insrpteams/sites/custsvcs/BC/BPC/ Documents/DedicatedSubstationList.xls)"
+customFieldCode: "Number of Sensitive Customers"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many sensitive c"
+promptTextId: "How many sensitive customers are radialized to accommodate this planned\
+  \ outage?"

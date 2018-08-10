@@ -1,0 +1,9 @@
+code: "Agent Time Saved"
+descriptionId: ""
+customFieldCode: "Agent Time Saved"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What reduction will"
+promptTextId: "What reduction will there be in Call Centre Average Handling Time (AHT)\
+  \ measured in seconds?"

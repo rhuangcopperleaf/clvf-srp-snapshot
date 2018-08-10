@@ -1,0 +1,9 @@
+code: "POF"
+nameId: "POF"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 3
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

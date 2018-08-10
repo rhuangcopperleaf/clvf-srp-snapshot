@@ -1,0 +1,9 @@
+code: "Probability of Repurposing"
+nameId: "Probability of Repurposing"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 1
+listItems: []

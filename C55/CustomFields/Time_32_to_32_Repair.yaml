@@ -1,0 +1,9 @@
+code: "Time to Repair"
+nameId: "Time to Repair"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100000
+listItems: []

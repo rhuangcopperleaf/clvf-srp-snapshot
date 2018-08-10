@@ -1,0 +1,9 @@
+code: "Number of Outages Radial Load"
+descriptionId: ""
+customFieldCode: "Number of Outages Radial Load"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the number o"
+promptTextId: "What is the number of different breaker-to-breaker outages that place\
+  \ for the same customer in a radial condition?"

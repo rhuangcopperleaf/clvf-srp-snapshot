@@ -1,0 +1,32 @@
+code: "Employee Productivity Benefit"
+nameId: "Employee Productivity Benefit"
+descriptionId: "Employee Productivity Benefit"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Employee Productivity Benefit"
+  nameId: "Employee Productivity Benefit"
+  valueMeasureCode: "Employee Productivity Benefit"
+  sequence: 1
+questionnaires:
+- code: "EmployeeProductivityBenefit-O"
+  nameId: "Employee Productivity Benefit"
+  descriptionId: "Employee Productivity Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Number of Employees Affected"
+    sequence: 1
+  - measurePromptCode: "Hours Saved per Employee"
+    sequence: 2
+  - measurePromptCode: "Benefit Probability"
+    sequence: 3
+  - measurePromptCode: "Rationale"
+    sequence: 4
+  formulas:
+  - measureCode: "Employee Productivity Benefit"
+    consequenceClassName: "EmployeeProductivityConsequence"
+    likelihoodClassName: "BenefitLikelihood"

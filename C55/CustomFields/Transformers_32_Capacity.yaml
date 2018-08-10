@@ -1,0 +1,9 @@
+code: "Transformers Capacity"
+nameId: "Transformers Capacity"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 10000000
+listItems: []

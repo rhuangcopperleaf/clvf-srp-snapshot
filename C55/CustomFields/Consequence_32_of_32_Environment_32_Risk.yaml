@@ -1,0 +1,27 @@
+code: "Consequence of Environment Risk"
+nameId: "Consequence of Environment Risk"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "No environmental damage"
+  nameId: "E) No environmental damage"
+  value: 0
+  isObsolete: false
+- code: "Oil leakage outside containment within station"
+  nameId: "C) Oil leakage outside containment within station"
+  value: 50
+  isObsolete: false
+- code: "Oil leakage outside station"
+  nameId: "B) Oil leakage outside station"
+  value: 200
+  isObsolete: false
+- code: "Oil leakage outside station into water course"
+  nameId: "A) Oil leakage outside station into water course"
+  value: 1000
+  isObsolete: false
+- code: "Oil leakage within containment"
+  nameId: "D) Oil leakage within containment"
+  value: 10
+  isObsolete: false

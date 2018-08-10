@@ -1,0 +1,9 @@
+code: "Overload Amount"
+descriptionId: "How many amps above the fault current rating will the actual fault\
+  \ current be?"
+customFieldCode: "Overload Amount"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the anticipa"
+promptTextId: "What is the anticipated excess fault current? (Amps)"

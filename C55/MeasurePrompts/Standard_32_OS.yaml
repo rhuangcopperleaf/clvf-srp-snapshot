@@ -1,0 +1,11 @@
+code: "Standard OS"
+descriptionId: "Does the control/operations software for this device run on a standard/supported\
+  \ OS?"
+customFieldCode: "Standard OS"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Does the device mana"
+promptTextId: "Does the device management software function on an SRP standard operating\
+  \ system?"
+defaultValue: "1"

@@ -1,0 +1,7 @@
+code: "Renewable Capacity Value ($/MW) TimeSeries"
+nameId: "Renewable Capacity Value ($/MW) TimeSeries"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

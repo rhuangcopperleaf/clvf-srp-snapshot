@@ -1,0 +1,11 @@
+code: "Type of Generation (Elec Asset)"
+descriptionId: "Select from natural gas, coal, or hydro. If unsure or mixed, use natural\
+  \ gas."
+customFieldCode: "Type of Generation"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "If the Major Impact"
+promptTextId: "If the Major Impact would cause generation curtailment, then what type\
+  \ of Generation would be Curtailed? (natural gas, coal or hydro)\nIf the Major Impact\
+  \ would cause generation curtailment, then what"

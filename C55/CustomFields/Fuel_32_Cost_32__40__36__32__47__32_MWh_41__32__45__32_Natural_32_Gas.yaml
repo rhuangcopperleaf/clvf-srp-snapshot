@@ -1,0 +1,7 @@
+code: "Fuel Cost ($ / MWh) - Natural Gas"
+nameId: "Fuel Cost ($ / MWh) - Natural Gas"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

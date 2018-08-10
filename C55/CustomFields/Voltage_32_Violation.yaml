@@ -1,0 +1,9 @@
+code: "Voltage Violation"
+nameId: "Voltage Violation"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100000
+listItems: []

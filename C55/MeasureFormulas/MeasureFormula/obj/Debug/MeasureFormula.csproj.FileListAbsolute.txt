@@ -1,0 +1,101 @@
+C:\Tortoise\SRP\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Tortoise\SRP\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Tortoise\SRP\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Tortoise\SRP\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Tortoise\SRP\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Tortoise\SRP\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\4\ValueMeasureFormulas\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\4\ValueMeasureFormulas\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\4\ValueMeasureFormulas\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\4\ValueMeasureFormulas\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\4\ValueMeasureFormulas\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\SRP\R11_2 formulas\4\ValueMeasureFormulas\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\4\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\4\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\4\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\4\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\4\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\5\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\5\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\5\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\5\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\5\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\5\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\6\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\6\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\6\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\6\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\6\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\6\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\7\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\7\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\7\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\7\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\7\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\7\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\8\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\8\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\8\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\8\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\8\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\8\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\9\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\9\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\9\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\9\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\9\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\9\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\10\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\10\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\10\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\10\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\10\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\10\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\11\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\11\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\11\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\11\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\11\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\11\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\2\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\1\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\1\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\1\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\1\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\1\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\1\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\Users\vbozanovic\Documents\__Custom Dev\__SRP\R11_2 formulas\3\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\GitHub\value-framework-srp\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.dll
+C:\GitHub\value-framework-srp\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.pdb
+C:\GitHub\value-framework-srp\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.dll
+C:\GitHub\value-framework-srp\ValueMeasures\MeasureFormula\bin\Debug\MeasureFormula.pdb
+C:\GitHub\value-framework-srp\ValueMeasures\MeasureFormula\bin\Debug\CL.FormulaHelper.dll
+C:\GitHub\value-framework-srp\ValueMeasures\MeasureFormula\obj\Debug\MeasureFormula.csprojResolveAssemblyReference.cache

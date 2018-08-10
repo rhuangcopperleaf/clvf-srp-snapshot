@@ -1,0 +1,10 @@
+code: "Voltage Violation"
+descriptionId: "Only if option B or C was selected in the first question and if it\
+  \ is a voltage violation."
+customFieldCode: "Voltage Violation"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "For voltage violatio"
+promptTextId: "For voltage violation: What is the magnitude of the voltage violation?\
+  \ (%)"

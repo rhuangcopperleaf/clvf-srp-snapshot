@@ -1,0 +1,161 @@
+- code: "None"
+  nameId: "None"
+  defaultDescriptionId: "None"
+  maxValue: 100
+  averageValue: 0
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Violation of regulatory requirement resulting in annual fines\
+      \ < $100K"
+  - valueMeasureCode: "Cyber Security Risk"
+    descriptionId: "Immaterial consequence"
+  - valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+    descriptionId: "Able to supply load without exceeding planning limits."
+  - valueMeasureCode: "Environmental Remediation Risk"
+    descriptionId: "Immaterial consequence"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "<$100K annually"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Immaterial consequence"
+  - valueMeasureCode: "Safety Risk"
+    descriptionId: "Immaterial consequence"
+  - valueMeasureCode: "Transmission Stability Risk"
+    descriptionId: "No grid stability or power quality issues"
+- code: "Very Minor"
+  nameId: "Very Minor"
+  defaultDescriptionId: "Very Minor"
+  maxValue: 500
+  averageValue: 300
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Violation of regulatory requirement resulting in annual fines\
+      \ > $100K or mitigated by a workaround costing > $100K"
+  - valueMeasureCode: "Cyber Security Risk"
+    descriptionId: "IT devices do not have the current Operating System or Anti-Virus\
+      \ updates"
+  - valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+    descriptionId: "n/a"
+  - valueMeasureCode: "Environmental Remediation Risk"
+    descriptionId: "Environmental damage where the cost of remediation is >$100K"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: ">$100K annually"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "n/a"
+  - valueMeasureCode: "Safety Risk"
+    descriptionId: "Possibility of injury has been mitigated by a workaround where\
+      \ the cost of those workarounds are >$100K\nOR\nEnables ongoing compliance with\
+      \ safety regulations"
+  - valueMeasureCode: "Transmission Stability Risk"
+    descriptionId: "Grid stability issues with potential to cause localized power\
+      \ quality issues (voltage or frequency),"
+- code: "Minor"
+  nameId: "Minor"
+  defaultDescriptionId: "Minor"
+  maxValue: 1500
+  averageValue: 1000
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Violation of regulatory requirement resulting in annual fines\
+      \ > $500K or mitigated by a workaround costing > $500K\nOR\nViolation of a corporate\
+      \ standard or core values"
+  - valueMeasureCode: "Cyber Security Risk"
+    descriptionId: "IT devices do not have functionality outside the scope of traditional\
+      \ signature based methods to detect intrusions/ threats/malware/viruses"
+  - valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+    descriptionId: "Can supply all load but exceeding normal ratings"
+  - valueMeasureCode: "Environmental Remediation Risk"
+    descriptionId: "Environmental damage where the cost of remediation is >$500K"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: ">$500K annually"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "n/a"
+  - valueMeasureCode: "Safety Risk"
+    descriptionId: "Possibility of injury has been mitigated by a workaround where\
+      \ the cost of those workarounds are >$500K"
+  - valueMeasureCode: "Transmission Stability Risk"
+    descriptionId: "Grid stability issues with potential to cause significant power\
+      \ quality issues (voltage or frequency)"
+- code: "Moderate"
+  nameId: "Moderate"
+  defaultDescriptionId: "Moderate"
+  maxValue: 3000
+  averageValue: 2250
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Violation of regulatory requirement resulting in annual fines\
+      \ > $1.5M or mitigated by a workaround costing > $1.5M"
+  - valueMeasureCode: "Cyber Security Risk"
+    descriptionId: "Malware, virus breach or unintended access of any IT system or\
+      \ device"
+  - valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+    descriptionId: "Can supply all load but exceeding the emergency thermal limits"
+  - valueMeasureCode: "Environmental Remediation Risk"
+    descriptionId: "Environmental damage where the cost of remediation is >$1.5M"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: ">$1.5 million annually"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Short term local adverse media coverage\nOR\nSome public embarrassment\n\
+      OR\nMinor effect on public attitudes."
+  - valueMeasureCode: "Safety Risk"
+    descriptionId: "Possibility of injury has been mitigated by a workaround where\
+      \ the cost of those workarounds are >$1.5M\nOR\nUnmitigated risk of a lost-time\
+      \ injury or injury requiring medical attention"
+  - valueMeasureCode: "Transmission Stability Risk"
+    descriptionId: "Grid stability issues with potential to cause localized load shedding"
+- code: "Major"
+  nameId: "Major"
+  defaultDescriptionId: "Major"
+  maxValue: 10000
+  averageValue: 6500
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Violation of regulatory requirement resulting in annual fines\
+      \ > $3M or mitigated by a workaround costing > $3M"
+  - valueMeasureCode: "Cyber Security Risk"
+    descriptionId: "Unintended access to any IT system that has direct access to an\
+      \ OT system or loss of confidential data"
+  - valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+    descriptionId: "n/a"
+  - valueMeasureCode: "Environmental Remediation Risk"
+    descriptionId: "Environmental damage where the cost of remediation is >$3M"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: ">$3 million annually"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Long term adverse local media publicity\nOR\nPublic confidence\
+      \ in the organization undermined\nOR\nSignificant effect on public perception\
+      \ of the organization."
+  - valueMeasureCode: "Safety Risk"
+    descriptionId: "Possibility of injury has been mitigated by a workaround where\
+      \ the cost of those workarounds are >$3M"
+  - valueMeasureCode: "Transmission Stability Risk"
+    descriptionId: "Grid stability issues with potential to cause widespread load\
+      \ shedding"
+- code: "Catastrophic"
+  nameId: "Catastrophic"
+  defaultDescriptionId: "Catastrophic"
+  maxValue: 30000
+  averageValue: 20000
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Violation of regulatory requirement resulting in annual fines\
+      \ > $10M or mitigated by a workaround costing > $10M\nOR\nViolation of operating\
+      \ license requirements, federal or state law, or NERC/FERC compliance"
+  - valueMeasureCode: "Cyber Security Risk"
+    descriptionId: "Direct unintended access to an OT system"
+  - valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+    descriptionId: "Unable to service a load"
+  - valueMeasureCode: "Environmental Remediation Risk"
+    descriptionId: "Irreversible severe environmental damage \nOR\nEnvironmental damage\
+      \ where the cost of remediation is > $10M"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: ">$10 million annually"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Adverse national media publicity\nOR\nPublic Inquiry, federal\
+      \ inquiry (FAI)"
+  - valueMeasureCode: "Safety Risk"
+    descriptionId: "Possibility of injury has been mitigated by a workaround where\
+      \ the cost of those workarounds are >$10M\nOR\nUnmitigated risk of serious injury\
+      \ or fatality where no workaround is possible"
+  - valueMeasureCode: "Transmission Stability Risk"
+    descriptionId: "Grid stability issues with protential to cause cascading outages\
+      \ beyond SRP"

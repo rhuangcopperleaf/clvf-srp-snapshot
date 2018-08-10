@@ -1,0 +1,10 @@
+code: "Required Generation Curtailment"
+descriptionId: "How much total generation would need to be curtailed in order mitigate\
+  \ the major issue?"
+customFieldCode: "Required Generation Curtailment"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "If the fault current"
+promptTextId: "If the fault current can be reduced to safe levels by curtailing generation\
+  \ then what is the required Generation Curtailment? (MW)"

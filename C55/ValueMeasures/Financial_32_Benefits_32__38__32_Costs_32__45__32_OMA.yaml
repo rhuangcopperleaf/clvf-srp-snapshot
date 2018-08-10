@@ -1,0 +1,13 @@
+code: "Financial Benefits & Costs - OMA"
+nameId: "Financial Benefits & Costs - OMA"
+descriptionId: "Financial Benefits & Costs - OMA"
+color: "#BD2454"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "OutcomeMinusBaseline"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

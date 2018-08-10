@@ -1,0 +1,13 @@
+code: "Financial Benefits & Costs - Capital"
+nameId: "Financial Benefits & Costs - Capital"
+descriptionId: "Financial Benefits & Costs - Capital"
+color: "#BD2452"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "OutcomeMinusBaseline"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

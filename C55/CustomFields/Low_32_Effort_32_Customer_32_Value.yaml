@@ -1,0 +1,9 @@
+code: "Low Effort Customer Value"
+nameId: "Low Effort Customer Value"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 1000
+listItems: []

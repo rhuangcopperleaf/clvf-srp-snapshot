@@ -1,0 +1,8 @@
+code: "Outage Duration"
+descriptionId: ""
+customFieldCode: "Outage Duration"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the average"
+promptTextId: "What is the average outage duration (h)"

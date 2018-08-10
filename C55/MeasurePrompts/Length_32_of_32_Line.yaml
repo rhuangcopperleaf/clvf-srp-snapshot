@@ -1,0 +1,8 @@
+code: "Length of Line"
+descriptionId: ""
+customFieldCode: "Length of Line"
+isTimeVarying: false
+isRequired: false
+isComment: true
+shortPromptId: "What is the length o"
+promptTextId: "What is the length of the line? (miles)"

@@ -1,0 +1,9 @@
+code: "CO2 Reduction"
+descriptionId: ""
+customFieldCode: "CO2 Reduction"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the anticipa"
+promptTextId: "What is the anticipated reduction in CO2 equivalent emissions annually\
+  \ after implementing this project? (tons)"

@@ -1,0 +1,9 @@
+code: "Interruption Exceeds RTO"
+descriptionId: ""
+customFieldCode: "Interruption Exceeds RTO"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Will the interruptio"
+promptTextId: "Will the interruption last longer than the shortest required RTO?"
+defaultValue: "0"

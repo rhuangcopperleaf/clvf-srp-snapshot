@@ -1,0 +1,9 @@
+code: "Resolved First Contact"
+descriptionId: ""
+customFieldCode: "Resolved First Contact"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected increase in customers whose issues/concerns are\
+  \ resolved during the first call or on first contact?"

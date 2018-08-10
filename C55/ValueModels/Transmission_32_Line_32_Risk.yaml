@@ -1,0 +1,136 @@
+code: "Transmission Line Risk"
+nameId: "Transmission Line Risk"
+descriptionId: "Transmission Line Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Transmission Line - Condition"
+  nameId: "Transmission Line - Condition"
+  valueMeasureCode: "Condition"
+  sequence: 2
+- code: "Transmission Line - Design Life"
+  nameId: "Transmission Line - Design Life"
+  valueMeasureCode: "Asset Design Life"
+  sequence: 1
+- code: "Transmission Line - Financial"
+  nameId: "Transmission Line - Financial"
+  valueMeasureCode: "Financial Risk"
+  sequence: 3
+- code: "Transmission Line - Reliability"
+  nameId: "Transmission Line - Reliability"
+  valueMeasureCode: "Transmission Reliability Risk"
+  sequence: 4
+- code: "Transmission Line - Safety"
+  nameId: "Transmission Line - Safety"
+  valueMeasureCode: "Safety Risk"
+  sequence: 5
+questionnaires:
+- code: "TransmissionLineRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Transmission Line Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Transmission Line - Condition"
+    consequenceClassName: "TransmissionLineAutomaticOutcomeCondition"
+  - measureCode: "Transmission Line - Financial"
+    consequenceClassName: "TransmissionLineFinancialAutomaticOutcomeConsequence"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+  - measureCode: "Transmission Line - Reliability"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionLineAutomaticOutcomeLikelihood"
+  - measureCode: "Transmission Line - Safety"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionLineAutomaticOutcomeLikelihood"
+- code: "TransmissionLineRisk-B"
+  nameId: "Transmission Line Risk"
+  descriptionId: "Transmission Line Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "POF"
+    sequence: 1
+  - measurePromptCode: "COF"
+    sequence: 2
+  - measurePromptCode: "Condition"
+    sequence: 3
+  - measurePromptCode: "Design Life"
+    sequence: 4
+  - measurePromptCode: "Length of Line"
+    sequence: 5
+  - measurePromptCode: "Line Voltage"
+    sequence: 6
+  - measurePromptCode: "Time to Repair"
+    sequence: 7
+  - measurePromptCode: "Probability of Collateral Damage"
+    sequence: 8
+  - measurePromptCode: "Consequence of Collateral Damage"
+    sequence: 9
+  - measurePromptCode: "Probability of Danger"
+    sequence: 10
+  - measurePromptCode: "Population Density"
+    sequence: 11
+  - measurePromptCode: "Rationale"
+    sequence: 12
+  formulas:
+  - measureCode: "Transmission Line - Condition"
+    consequenceClassName: "GenericEndOfLifeCondition"
+  - measureCode: "Transmission Line - Design Life"
+    consequenceClassName: "GenericDesignLifeBaseline"
+  - measureCode: "Transmission Line - Financial"
+    consequenceClassName: "TransmissionLineFinancialConsequence"
+    likelihoodClassName: "TransmissionLineFinancialLikelihood"
+  - measureCode: "Transmission Line - Reliability"
+    consequenceClassName: "TransmissionLineReliabilityConsequence"
+    likelihoodClassName: "TransmissionLineReliabilityLikelihood"
+  - measureCode: "Transmission Line - Safety"
+    consequenceClassName: "TransmissionLineSafetyConsequence"
+    likelihoodClassName: "TransmissionLineSafetyLikelihood"
+- code: "TransmissionLineRisk-O"
+  nameId: "Transmission Line Risk"
+  descriptionId: "Transmission Line Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "COF"
+    sequence: 1
+  - measurePromptCode: "POF"
+    sequence: 2
+  - measurePromptCode: "Condition"
+    sequence: 3
+  - measurePromptCode: "Length of Line"
+    sequence: 4
+  - measurePromptCode: "Line Voltage"
+    sequence: 5
+  - measurePromptCode: "Time to Repair"
+    sequence: 6
+  - measurePromptCode: "Probability of Collateral Damage"
+    sequence: 7
+  - measurePromptCode: "Consequence of Collateral Damage"
+    sequence: 8
+  - measurePromptCode: "Probability of Danger"
+    sequence: 9
+  - measurePromptCode: "Population Density"
+    sequence: 10
+  - measurePromptCode: "Rationale"
+    sequence: 11
+  - measurePromptCode: "Design Life"
+    sequence: 12
+  formulas:
+  - measureCode: "Transmission Line - Condition"
+    consequenceClassName: "GenericEndOfLifeConditionOutcome"
+  - measureCode: "Transmission Line - Financial"
+    consequenceClassName: "TransmissionLineFinancialConsequence"
+    likelihoodClassName: "TransmissionLineFinancialLikelihood"
+  - measureCode: "Transmission Line - Reliability"
+    consequenceClassName: "TransmissionLineReliabilityConsequence"
+    likelihoodClassName: "TransmissionLineReliabilityLikelihood"
+  - measureCode: "Transmission Line - Safety"
+    consequenceClassName: "TransmissionLineSafetyConsequence"
+    likelihoodClassName: "TransmissionLineSafetyLikelihood"

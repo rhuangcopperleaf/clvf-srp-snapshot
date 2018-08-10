@@ -1,0 +1,74 @@
+code: "Business Continuity Risk"
+nameId: "Business Continuity Risk"
+descriptionId: "Business Continuity Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Business Continuity Risk"
+  nameId: "Business Continuity Risk"
+  valueMeasureCode: "Business Continuity Risk"
+  sequence: 1
+questionnaires:
+- code: "BusinessContinuityRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Business Continuity Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Business Continuity Risk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "BusinessContinuityRisk-B"
+  nameId: "Business Continuity Risk"
+  descriptionId: "Business Continuity Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Business Continuity Employees Affected"
+    sequence: 1
+  - measurePromptCode: "Productivity Impact"
+    sequence: 2
+  - measurePromptCode: "Risk Avoidance Probability"
+    sequence: 3
+  - measurePromptCode: "BIA Critical"
+    sequence: 4
+  - measurePromptCode: "Interruption Exceeds RTO"
+    sequence: 5
+  - measurePromptCode: "RTO Process"
+    sequence: 6
+  - measurePromptCode: "Rationale"
+    sequence: 7
+  formulas:
+  - measureCode: "Business Continuity Risk"
+    consequenceClassName: "BusinessContinuityConsequence"
+    likelihoodClassName: "RiskAvoidanceLikelihood"
+- code: "BusinessContinuityRisk-O"
+  nameId: "Business Continuity Risk"
+  descriptionId: "Business Continuity Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Business Continuity Employees Affected"
+    sequence: 1
+  - measurePromptCode: "Productivity Impact"
+    sequence: 2
+  - measurePromptCode: "Risk Avoidance Probability"
+    sequence: 3
+  - measurePromptCode: "BIA Critical"
+    sequence: 4
+  - measurePromptCode: "Interruption Exceeds RTO"
+    sequence: 5
+  - measurePromptCode: "RTO Process"
+    sequence: 6
+  - measurePromptCode: "Rationale"
+    sequence: 7
+  formulas:
+  - measureCode: "Business Continuity Risk"
+    consequenceClassName: "BusinessContinuityConsequence"
+    likelihoodClassName: "RiskAvoidanceLikelihood"

@@ -1,0 +1,51 @@
+code: "Additional Costs"
+nameId: "Additional Costs"
+descriptionId: "Additional Costs"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Additional Costs  - Capital"
+  nameId: "Additional Costs  - Capital"
+  valueMeasureCode: "Financial Benefits & Costs - Capital"
+  sequence: 1
+- code: "Additional Costs  - OMA"
+  nameId: "Additional Costs  - OMA"
+  valueMeasureCode: "Financial Benefits & Costs - OMA"
+  sequence: 2
+questionnaires:
+- code: "AdditionalCosts-B"
+  nameId: "Additional Costs"
+  descriptionId: "Additional Costs"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Account Type"
+    sequence: 1
+  - measurePromptCode: "Rationale"
+    sequence: 2
+  formulas:
+  - measureCode: "Additional Costs  - Capital"
+    consequenceClassName: "AdditionalCostsCapitalBaseline"
+  - measureCode: "Additional Costs  - OMA"
+    consequenceClassName: "AdditionalCostsOMABaseline"
+- code: "AdditionalCosts-O"
+  nameId: "Additional Costs"
+  descriptionId: "Additional Costs"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Additional Costs"
+    sequence: 1
+  - measurePromptCode: "Cost Probability"
+    sequence: 2
+  formulas:
+  - measureCode: "Additional Costs  - Capital"
+    consequenceClassName: "AdditionalCostsCapitalOutcome"
+    likelihoodClassName: "AdditionalCostsLikelihood"
+  - measureCode: "Additional Costs  - OMA"
+    consequenceClassName: "AdditionalCostsOMAOutcome"
+    likelihoodClassName: "AdditionalCostsLikelihood"

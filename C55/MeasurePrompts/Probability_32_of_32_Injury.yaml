@@ -1,0 +1,8 @@
+code: "Probability of Injury"
+descriptionId: ""
+customFieldCode: "Probability of Injury"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of that person being injured? (%)"

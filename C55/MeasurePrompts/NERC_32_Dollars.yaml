@@ -1,0 +1,9 @@
+code: "NERC Dollars"
+descriptionId: "For example, if half of the assets in this investment was for NERC\
+  \ compliance, multiply the cost of the investment by 0.5."
+customFieldCode: "NERC Dollars"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "How much of this inv"
+promptTextId: "How much of this investment is required for NERC compliance? ($)"

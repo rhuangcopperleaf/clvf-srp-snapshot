@@ -1,0 +1,9 @@
+code: "Probability of Environment Risk"
+descriptionId: ""
+customFieldCode: "Probability of Environment Risk"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability that the asset fails in a way that creates\
+  \ an environmental event requiring cleanup? (%)"

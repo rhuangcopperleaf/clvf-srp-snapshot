@@ -1,0 +1,9 @@
+code: "Consequence of Environment Risk"
+descriptionId: ""
+customFieldCode: "Consequence of Environment Risk"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What would the envir"
+promptTextId: "What would the environmental consequence be if the failure resulted\
+  \ in an event requiring cleanup?"

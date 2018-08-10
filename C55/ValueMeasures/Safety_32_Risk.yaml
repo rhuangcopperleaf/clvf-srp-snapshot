@@ -1,0 +1,13 @@
+code: "Safety Risk"
+nameId: "Safety Risk"
+descriptionId: "Safety Risk"
+color: "#19AFD6"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

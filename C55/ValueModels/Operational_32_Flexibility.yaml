@@ -1,0 +1,70 @@
+code: "Operational Flexibility"
+nameId: "Operational Flexibility"
+descriptionId: "Operational Flexibility"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Operational Flexibility - Reliability"
+  nameId: "Operational Flexibility - Reliability"
+  valueMeasureCode: "Transmission Reliability Risk"
+  sequence: 1
+questionnaires:
+- code: "OperationalFlexibility-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Operational Flexibility Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Operational Flexibility - Reliability"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "OperationalFlexibility-B"
+  nameId: "Operational Flexibility"
+  descriptionId: "Operational Flexibility"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Planned Outage Days"
+    sequence: 1
+  - measurePromptCode: "Outage Window"
+    sequence: 2
+  - measurePromptCode: "Radial Load"
+    sequence: 3
+  - measurePromptCode: "Number of Sensitive Customers"
+    sequence: 4
+  - measurePromptCode: "Number of Outages Radial Load"
+    sequence: 5
+  - measurePromptCode: "Rationale"
+    sequence: 6
+  formulas:
+  - measureCode: "Operational Flexibility - Reliability"
+    consequenceClassName: "OperationalFlexibilityReliabilityConsequence"
+    likelihoodClassName: "OperationalFlexibilityReliabilityLikelihood"
+- code: "OperationalFlexibility-O"
+  nameId: "Operational Flexibility"
+  descriptionId: "Operational Flexibility"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Planned Outage Days"
+    sequence: 1
+  - measurePromptCode: "Outage Window"
+    sequence: 2
+  - measurePromptCode: "Radial Load"
+    sequence: 3
+  - measurePromptCode: "Number of Sensitive Customers"
+    sequence: 4
+  - measurePromptCode: "Number of Outages Radial Load"
+    sequence: 5
+  - measurePromptCode: "Rationale"
+    sequence: 6
+  formulas:
+  - measureCode: "Operational Flexibility - Reliability"
+    consequenceClassName: "OperationalFlexibilityReliabilityConsequence"
+    likelihoodClassName: "OperationalFlexibilityReliabilityLikelihood"

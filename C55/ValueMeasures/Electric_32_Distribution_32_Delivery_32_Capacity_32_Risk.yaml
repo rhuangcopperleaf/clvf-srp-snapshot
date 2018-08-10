@@ -1,0 +1,13 @@
+code: "Electric Distribution Delivery Capacity Risk"
+nameId: "Electric Distribution Delivery Capacity Risk"
+descriptionId: "Electric Distribution Delivery Capacity Risk"
+color: "#BD244F"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

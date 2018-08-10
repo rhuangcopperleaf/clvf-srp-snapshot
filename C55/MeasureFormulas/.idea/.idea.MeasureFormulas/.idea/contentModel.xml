@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\TChu\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_MeasureFormulas.1274527400.00" t="ExcludeRecursive" />
+    <e p="E:\Git\value-framework-srp\ValueMeasures" t="IncludeFlat">
+      <e p="Externals" t="Include">
+        <e p="CL.FormulaHelper.dll" t="Include" />
+      </e>
+      <e p="FormulaRunner" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FormulaRunner.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MeasureFormula" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common Code" t="Include">
+          <e p="CustomerConstants.cs" t="Include" />
+          <e p="HelperFunctions.cs" t="Include" />
+          <e p="TandD.cs" t="Include" />
+        </e>
+        <e p="Consequence Formulas" t="Include">
+          <e p="Formula Implementation Code" t="Include">
+            <e p="AdditionalCostsCapitalBaseline.cs" t="Include" />
+            <e p="AdditionalCostsCapitalOutcome.cs" t="Include" />
+            <e p="AdditionalCostsOMABaseline.cs" t="Include" />
+            <e p="AdditionalCostsOMAOutcome.cs" t="Include" />
+            <e p="BusinessContinuityConsequence.cs" t="Include" />
+            <e p="CapitalCost.cs" t="Include" />
+            <e p="CostAvoidanceCapitalAutomaticOutcome.cs" t="Include" />
+            <e p="CostAvoidanceCapitalBaseline.cs" t="Include" />
+            <e p="CostAvoidanceCapitalOutcome.cs" t="Include" />
+            <e p="CostAvoidanceOMAAutomaticOutcome.cs" t="Include" />
+            <e p="CostAvoidanceOMABaseline.cs" t="Include" />
+            <e p="CostAvoidanceOMAOutcome.cs" t="Include" />
+            <e p="CostSavingsCapitalBaseline.cs" t="Include" />
+            <e p="CostSavingsCapitalOutcome.cs" t="Include" />
+            <e p="CostSavingsOMABaseline.cs" t="Include" />
+            <e p="CostSavingsOMAOustcome.cs" t="Include" />
+            <e p="CustomerServiceConsequence.cs" t="Include" />
+            <e p="ElectricDistributionReliabilityConsequence.cs" t="Include" />
+            <e p="EmissionLevelsConsequence.cs" t="Include" />
+            <e p="EmissionLevelsKPIConsequence.cs" t="Include" />
+            <e p="EmployeeEngagementAttractionRetentionConsequence.cs" t="Include" />
+            <e p="EmployeeProductivityConsequence.cs" t="Include" />
+            <e p="GenericDesignLifeBaseline.cs" t="Include" />
+            <e p="GenericEndOfLifeCondition.cs" t="Include" />
+            <e p="GenericEndOfLifeConditionOutcome.cs" t="Include" />
+            <e p="InternalLabour.cs" t="Include" />
+            <e p="InvestmentCostCapital.cs" t="Include" />
+            <e p="InvestmentCostOMA.cs" t="Include" />
+            <e p="LostGenerationConsequence.cs" t="Include" />
+            <e p="OperationalFlexibilityReliabilityConsequence.cs" t="Include" />
+            <e p="PublicPerceptionConsequence.cs" t="Include" />
+            <e p="RenewableCapacityConsequence.cs" t="Include" />
+            <e p="RenewableCapacityKPIConsequence.cs" t="Include" />
+            <e p="RiskConsequenceAutomaticOutcome.cs" t="Include" />
+            <e p="RiskConsequenceManual.cs" t="Include" />
+            <e p="TotalCost.cs" t="Include" />
+            <e p="TotalLabour.cs" t="Include" />
+            <e p="TransmissionElectronicAutomaticOutcomeCondition.cs" t="Include" />
+            <e p="TransmissionElectronicComplianceConsequence.cs" t="Include" />
+            <e p="TransmissionElectronicFinancialAutomaticOutcomeConsequence.cs" t="Include" />
+            <e p="TransmissionElectronicFinancialConsequence.cs" t="Include" />
+            <e p="TransmissionElectronicReliabilityConsequence.cs" t="Include" />
+            <e p="TransmissionElectronicSafetyConsequence.cs" t="Include" />
+            <e p="TransmissionFaultComplianceConsequence.cs" t="Include" />
+            <e p="TransmissionFaultReliabilityConsequence.cs" t="Include" />
+            <e p="TransmissionLineAutomaticOutcomeCondition.cs" t="Include" />
+            <e p="TransmissionLineFinancialAutomaticOutcomeConsequence.cs" t="Include" />
+            <e p="TransmissionLineFinancialConsequence.cs" t="Include" />
+            <e p="TransmissionLineReliabilityConsequence.cs" t="Include" />
+            <e p="TransmissionLineSafetyConsequence.cs" t="Include" />
+            <e p="TransmissionPowerFlowConsequence.cs" t="Include" />
+            <e p="TransmissionStabilityRiskConsequence.cs" t="Include" />
+            <e p="TransmissionStationAutomaticOutcomeCondition.cs" t="Include" />
+            <e p="TransmissionStationEnvironmentalConsequence.cs" t="Include" />
+            <e p="TransmissionStationFinancialAutomaticOutcomeConsequence.cs" t="Include" />
+            <e p="TransmissionStationFinancialConsequence.cs" t="Include" />
+            <e p="TransmissionStationReliabilityConsequence.cs" t="Include" />
+            <e p="TransmissionStationSafetyConsequence.cs" t="Include" />
+          </e>
+          <e p="Generated Formula Base Classes" t="Include">
+            <e p="AdditionalCostsCapitalBaselineBase.cs" t="Include" />
+            <e p="AdditionalCostsCapitalOutcomeBase.cs" t="Include" />
+            <e p="AdditionalCostsOMABaselineBase.cs" t="Include" />
+            <e p="AdditionalCostsOMAOutcomeBase.cs" t="Include" />
+            <e p="BusinessContinuityConsequenceBase.cs" t="Include" />
+            <e p="CapitalCostBase.cs" t="Include" />
+            <e p="CostAvoidanceCapitalAutomaticOutcomeBase.cs" t="Include" />
+            <e p="CostAvoidanceCapitalBaselineBase.cs" t="Include" />
+            <e p="CostAvoidanceCapitalOutcomeBase.cs" t="Include" />
+            <e p="CostAvoidanceOMAAutomaticOutcomeBase.cs" t="Include" />
+            <e p="CostAvoidanceOMABaselineBase.cs" t="Include" />
+            <e p="CostAvoidanceOMAOutcomeBase.cs" t="Include" />
+            <e p="CostSavingsCapitalBaselineBase.cs" t="Include" />
+            <e p="CostSavingsCapitalOutcomeBase.cs" t="Include" />
+            <e p="CostSavingsOMABaselineBase.cs" t="Include" />
+            <e p="CostSavingsOMAOustcomeBase.cs" t="Include" />
+            <e p="CustomerServiceConsequenceBase.cs" t="Include" />
+            <e p="ElectricDistributionReliabilityConsequenceBase.cs" t="Include" />
+            <e p="EmissionLevelsConsequenceBase.cs" t="Include" />
+            <e p="EmissionLevelsKPIConsequenceBase.cs" t="Include" />
+            <e p="EmployeeEngagementAttractionRetentionConsequenceBase.cs" t="Include" />
+            <e p="EmployeeProductivityConsequenceBase.cs" t="Include" />
+            <e p="GenericDesignLifeBaselineBase.cs" t="Include" />
+            <e p="GenericEndOfLifeConditionBase.cs" t="Include" />
+            <e p="GenericEndOfLifeConditionOutcomeBase.cs" t="Include" />
+            <e p="InternalLabourBase.cs" t="Include" />
+            <e p="InvestmentCostCapitalBase.cs" t="Include" />
+            <e p="InvestmentCostOMABase.cs" t="Include" />
+            <e p="LostGenerationConsequenceBase.cs" t="Include" />
+            <e p="OperationalFlexibilityReliabilityConsequenceBase.cs" t="Include" />
+            <e p="PublicPerceptionConsequenceBase.cs" t="Include" />
+            <e p="RenewableCapacityConsequenceBase.cs" t="Include" />
+            <e p="RenewableCapacityKPIConsequenceBase.cs" t="Include" />
+            <e p="RiskConsequenceAutomaticOutcomeBase.cs" t="Include" />
+            <e p="RiskConsequenceManualBase.cs" t="Include" />
+            <e p="TotalCostBase.cs" t="Include" />
+            <e p="TotalLabourBase.cs" t="Include" />
+            <e p="TransmissionElectronicAutomaticOutcomeConditionBase.cs" t="Include" />
+            <e p="TransmissionElectronicComplianceConsequenceBase.cs" t="Include" />
+            <e p="TransmissionElectronicFinancialAutomaticOutcomeConsequenceBase.cs" t="Include" />
+            <e p="TransmissionElectronicFinancialConsequenceBase.cs" t="Include" />
+            <e p="TransmissionElectronicReliabilityConsequenceBase.cs" t="Include" />
+            <e p="TransmissionElectronicSafetyConsequenceBase.cs" t="Include" />
+            <e p="TransmissionFaultComplianceConsequenceBase.cs" t="Include" />
+            <e p="TransmissionFaultReliabilityConsequenceBase.cs" t="Include" />
+            <e p="TransmissionLineAutomaticOutcomeConditionBase.cs" t="Include" />
+            <e p="TransmissionLineFinancialAutomaticOutcomeConsequenceBase.cs" t="Include" />
+            <e p="TransmissionLineFinancialConsequenceBase.cs" t="Include" />
+            <e p="TransmissionLineReliabilityConsequenceBase.cs" t="Include" />
+            <e p="TransmissionLineSafetyConsequenceBase.cs" t="Include" />
+            <e p="TransmissionPowerFlowConsequenceBase.cs" t="Include" />
+            <e p="TransmissionStabilityRiskConsequenceBase.cs" t="Include" />
+            <e p="TransmissionStationAutomaticOutcomeConditionBase.cs" t="Include" />
+            <e p="TransmissionStationEnvironmentalConsequenceBase.cs" t="Include" />
+            <e p="TransmissionStationFinancialAutomaticOutcomeConsequenceBase.cs" t="Include" />
+            <e p="TransmissionStationFinancialConsequenceBase.cs" t="Include" />
+            <e p="TransmissionStationReliabilityConsequenceBase.cs" t="Include" />
+            <e p="TransmissionStationSafetyConsequenceBase.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Likelihood Formulas" t="Include">
+          <e p="Formula Implementation Code" t="Include">
+            <e p="AdditionalCostsLikelihood.cs" t="Include" />
+            <e p="BenefitLikelihood.cs" t="Include" />
+            <e p="ElectricDistributionReliabilityLikelihood.cs" t="Include" />
+            <e p="OperationalFlexibilityReliabilityLikelihood.cs" t="Include" />
+            <e p="RiskAvoidanceLikelihood.cs" t="Include" />
+            <e p="RiskLikelihoodAutomaticOutcome.cs" t="Include" />
+            <e p="RiskLikelihoodManual.cs" t="Include" />
+            <e p="TransmissionElectronicAutomaticOutcomeLikelihood.cs" t="Include" />
+            <e p="TransmissionElectronicComplianceAutomaticOutcomeLikelihood.cs" t="Include" />
+            <e p="TransmissionElectronicComplianceLikelihood.cs" t="Include" />
+            <e p="TransmissionElectronicFinancialLikelihood.cs" t="Include" />
+            <e p="TransmissionElectronicReliabilityLikelihood.cs" t="Include" />
+            <e p="TransmissionElectronicSafetyLikelihood.cs" t="Include" />
+            <e p="TransmissionFaultAutomaticOutcomeLikelihood.cs" t="Include" />
+            <e p="TransmissionFaultComplianceAutomaticOutcomeLikelihood.cs" t="Include" />
+            <e p="TransmissionFaultComplianceLikelihood.cs" t="Include" />
+            <e p="TransmissionFaultReliabilityLikelihood.cs" t="Include" />
+            <e p="TransmissionLineAutomaticOutcomeLikelihood.cs" t="Include" />
+            <e p="TransmissionLineFinancialLikelihood.cs" t="Include" />
+            <e p="TransmissionLineReliabilityLikelihood.cs" t="Include" />
+            <e p="TransmissionLineSafetyLikelihood.cs" t="Include" />
+            <e p="TransmissionPowerFlowLikelihood.cs" t="Include" />
+            <e p="TransmissionStabilityRiskLikelihood.cs" t="Include" />
+            <e p="TransmissionStationAutomaticOutcomeLikelihood.cs" t="Include" />
+            <e p="TransmissionStationEnvironmentalLikelihood.cs" t="Include" />
+            <e p="TransmissionStationFinancialLikelihood.cs" t="Include" />
+            <e p="TransmissionStationReliabilityLikelihood.cs" t="Include" />
+            <e p="TransmissionStationSafetyLikelihood.cs" t="Include" />
+          </e>
+          <e p="Generated Formula Base Classes" t="Include">
+            <e p="AdditionalCostsLikelihoodBase.cs" t="Include" />
+            <e p="BenefitLikelihoodBase.cs" t="Include" />
+            <e p="ElectricDistributionReliabilityLikelihoodBase.cs" t="Include" />
+            <e p="OperationalFlexibilityReliabilityLikelihoodBase.cs" t="Include" />
+            <e p="RiskAvoidanceLikelihoodBase.cs" t="Include" />
+            <e p="RiskLikelihoodAutomaticOutcomeBase.cs" t="Include" />
+            <e p="RiskLikelihoodManualBase.cs" t="Include" />
+            <e p="TransmissionElectronicAutomaticOutcomeLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionElectronicComplianceAutomaticOutcomeLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionElectronicComplianceLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionElectronicFinancialLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionElectronicReliabilityLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionElectronicSafetyLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionFaultAutomaticOutcomeLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionFaultComplianceAutomaticOutcomeLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionFaultComplianceLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionFaultReliabilityLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionLineAutomaticOutcomeLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionLineFinancialLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionLineReliabilityLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionLineSafetyLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionPowerFlowLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionStabilityRiskLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionStationAutomaticOutcomeLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionStationEnvironmentalLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionStationFinancialLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionStationReliabilityLikelihoodBase.cs" t="Include" />
+            <e p="TransmissionStationSafetyLikelihoodBase.cs" t="Include" />
+          </e>
+        </e>
+        <e p="MeasureFormula.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MeasureFormulas.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

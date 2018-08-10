@@ -1,0 +1,10 @@
+code: "Continuous Rating"
+descriptionId: "Only if option B or C was selected in the first question and if it\
+  \ is an overload. Anticipated peak load from the load analysis in MW"
+customFieldCode: "Continuous Rating"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "For overload: If Vio"
+promptTextId: "For overload: If Violation Type B or C was chosen, what is the maximum\
+  \ continuous rating? (MW)"

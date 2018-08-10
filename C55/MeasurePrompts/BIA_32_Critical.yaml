@@ -1,0 +1,10 @@
+code: "BIA Critical"
+descriptionId: ""
+customFieldCode: "BIA Critical"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Does this support a"
+promptTextId: "Does this support a critical business process as identified in the\
+  \ BIA?"
+defaultValue: "0"

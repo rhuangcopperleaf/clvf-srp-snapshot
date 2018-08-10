@@ -1,0 +1,8 @@
+code: "Line Voltage"
+descriptionId: ""
+customFieldCode: "Line Voltage"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the line vol"
+promptTextId: "What is the line voltage? (kV)"

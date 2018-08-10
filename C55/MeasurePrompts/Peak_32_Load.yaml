@@ -1,0 +1,10 @@
+code: "Peak Load"
+descriptionId: "Only if option B or C was selected in the first question and if it\
+  \ is an overload. Anticipated loading on the element from the load analysis in MW"
+customFieldCode: "Peak Load"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "For overload: If Vio"
+promptTextId: "For overload: If Violation Type B or C was chosen, what is the anticipated\
+  \ loading on the element? (MW)"

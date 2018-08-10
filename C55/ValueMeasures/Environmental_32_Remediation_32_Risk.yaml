@@ -1,0 +1,13 @@
+code: "Environmental Remediation Risk"
+nameId: "Environmental Remediation Risk"
+descriptionId: "Environmental Remediation Risk"
+color: "#23FA60"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

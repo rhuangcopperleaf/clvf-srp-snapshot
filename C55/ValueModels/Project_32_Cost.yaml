@@ -1,0 +1,47 @@
+code: "Project Cost"
+nameId: "Project Cost"
+descriptionId: "Project Cost"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Mandatory"
+assetTypes: []
+measures:
+- code: "Internal Labour"
+  nameId: "Internal Labour"
+  valueMeasureCode: "Internal Labour"
+  sequence: 4
+- code: "Project Cost - Capital"
+  nameId: "Project Cost - Capital"
+  valueMeasureCode: "Project Cost - Capital"
+  sequence: 2
+- code: "Project Cost - OMA"
+  nameId: "Project Cost - OMA"
+  valueMeasureCode: "Project Cost - OMA"
+  sequence: 3
+- code: "Total Labour"
+  nameId: "Total Labour"
+  valueMeasureCode: "Total Labour"
+  sequence: 5
+- code: "Total Project Cost"
+  nameId: "Total Project Cost"
+  valueMeasureCode: "Total Project Cost"
+  sequence: 1
+questionnaires:
+- code: "ProjectCost-A"
+  nameId: "Project Cost"
+  descriptionId: "Project Cost"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Internal Labour"
+    consequenceClassName: "InternalLabour"
+  - measureCode: "Project Cost - Capital"
+    consequenceClassName: "InvestmentCostCapital"
+  - measureCode: "Project Cost - OMA"
+    consequenceClassName: "InvestmentCostOMA"
+  - measureCode: "Total Labour"
+    consequenceClassName: "TotalLabour"
+  - measureCode: "Total Project Cost"
+    consequenceClassName: "TotalCost"

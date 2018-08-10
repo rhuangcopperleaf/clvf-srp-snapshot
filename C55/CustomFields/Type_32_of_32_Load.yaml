@@ -1,0 +1,27 @@
+code: "Type of Load"
+nameId: "Type of Load"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Critical Public Service (Hospital)"
+  nameId: "D) Critical Public Service (Hospital)"
+  value: 4
+  isObsolete: false
+- code: "Mixed Residential / Commercial"
+  nameId: "B) Mixed Residential / Commercial"
+  value: 2
+  isObsolete: false
+- code: "Primarily Commercial (> 60% Commercial)"
+  nameId: "C) Primarily Commercial (> 60% Commercial)"
+  value: 3
+  isObsolete: false
+- code: "Primarily Residential (< 15% Commercial)"
+  nameId: "A) Primarily Residential (< 15% Commercial)"
+  value: 1
+  isObsolete: false
+- code: "Unknown"
+  nameId: "E) Unknown"
+  value: 5
+  isObsolete: false

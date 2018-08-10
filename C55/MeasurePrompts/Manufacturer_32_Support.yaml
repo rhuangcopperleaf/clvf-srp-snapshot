@@ -1,0 +1,9 @@
+code: "Manufacturer Support"
+descriptionId: "Is this device still supported by Manufacturer?"
+customFieldCode: "Manufacturer Support"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Does the Manufacture"
+promptTextId: "Does the Manufacture still support the device?"
+defaultValue: "1"

@@ -1,0 +1,9 @@
+code: "Value of Improvement Affecting All Public"
+nameId: "Value of Improvement Affecting All Public"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: true
+maximumNumber: 100000000
+listItems: []

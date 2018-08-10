@@ -1,0 +1,10 @@
+code: "Condition"
+nameId: "Condition"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+minimumNumber: 0
+maximumNumber: 10
+listItems: []

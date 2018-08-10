@@ -1,0 +1,9 @@
+code: "Hours Saved per Employee"
+descriptionId: ""
+customFieldCode: "Hours Saved per Employee"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "How many hours per y"
+promptTextId: "How many hours per year would this be expected to save per impacted\
+  \ employee?"

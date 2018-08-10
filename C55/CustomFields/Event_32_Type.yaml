@@ -1,0 +1,23 @@
+code: "Event Type"
+nameId: "Event Type"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Extreme Events: Extreme events per TPL1-4"
+  nameId: "D) Extreme Events: Extreme events per TPL1-4"
+  value: 0.0033
+  isObsolete: false
+- code: "P0: No contingency"
+  nameId: "A) P0: No contingency"
+  value: 1
+  isObsolete: false
+- code: "P1 & P2: Single contingency"
+  nameId: "B) P1 & P2: Single contingency"
+  value: 0.33
+  isObsolete: false
+- code: "P3 – P7: Multiple contingencies"
+  nameId: "C) P3 – P7: Multiple contingencies"
+  value: 0.033
+  isObsolete: false

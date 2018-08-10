@@ -1,0 +1,7 @@
+code: "Fuel Cost ($ / MWh) - Coal"
+nameId: "Fuel Cost ($ / MWh) - Coal"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

@@ -1,0 +1,13 @@
+code: "Call Center Benefit"
+nameId: "Call Center Benefit"
+descriptionId: "Call Center Benefit"
+color: "#19AFD4"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

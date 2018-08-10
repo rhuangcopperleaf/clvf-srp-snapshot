@@ -1,0 +1,9 @@
+code: "Stability Issue"
+descriptionId: ""
+customFieldCode: "Stability Issue"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the magnitud"
+promptTextId: "What is the magnitude of the grid stability issues this investment\
+  \ is designed to mitigate?"

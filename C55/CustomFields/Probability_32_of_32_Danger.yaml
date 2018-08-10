@@ -1,0 +1,9 @@
+code: "Probability of Danger"
+nameId: "Probability of Danger"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

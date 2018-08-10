@@ -1,0 +1,9 @@
+code: "Duration Cost ($/kWh) - System Average / Transmission"
+nameId: "Duration Cost ($/kWh) - System Average / Transmission"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 1000
+listItems: []

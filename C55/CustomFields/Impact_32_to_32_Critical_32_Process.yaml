@@ -1,0 +1,9 @@
+code: "Impact to Critical Process"
+nameId: "Impact to Critical Process"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 10000000000
+listItems: []

@@ -1,0 +1,13 @@
+code: "Asset Design Life"
+nameId: "Asset Design Life"
+descriptionId: "Asset Design Life"
+color: "#111111"
+consqUnitCode: "Year"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Minimum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

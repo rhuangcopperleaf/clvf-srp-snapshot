@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2B5DE64-CB51-47DE-8826-5344D623CDB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeasureFormula</RootNamespace>
+    <AssemblyName>MeasureFormula</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <LangVersion>5</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>5</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>5</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CL.FormulaHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Externals\CL.FormulaHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common Code\CustomerConstants.cs" />
+    <Compile Include="Common Code\TandD.cs" />
+    <Compile Include="Common Code\HelperFunctions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionFaultComplianceAutomaticOutcomeLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStationAutomaticOutcomeConditionBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionLineAutomaticOutcomeConditionBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\EmployeeEngagementAttractionRetentionConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\ElectricDistributionReliabilityLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionElectronicFinancialAutomaticOutcomeConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\RiskConsequenceAutomaticOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\GenericDesignLifeBaselineBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionElectronicAutomaticOutcomeConditionBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionLineAutomaticOutcomeLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionFaultReliabilityLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionPowerFlowLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionPowerFlowConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\RenewableCapacityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TotalCostBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\RiskConsequenceManualBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\RiskLikelihoodManualBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\BusinessContinuityConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionElectronicComplianceLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostAvoidanceCapitalAutomaticOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostAvoidanceOMAAutomaticOutcomeBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionElectronicFinancialLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionElectronicReliabilityLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionElectronicSafetyLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\EmissionLevelsKPIConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionFaultComplianceLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionFaultComplianceConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\RenewableCapacityKPIConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionElectronicComplianceConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\RiskLikelihoodAutomaticOutcomeBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\BenefitLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CustomerServiceConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\EmployeeProductivityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionElectronicReliabilityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CapitalCostBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionLineFinancialConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\GenericEndOfLifeConditionBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionLineReliabilityLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionLineSafetyConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\GenericEndOfLifeConditionOutcomeBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionLineSafetyLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostSavingsOMAOustcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionFaultReliabilityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostSavingsCapitalOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStationFinancialConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\AdditionalCostsOMABaselineBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostAvoidanceOMAOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostAvoidanceCapitalBaselineBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\AdditionalCostsCapitalOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\AdditionalCostsOMAOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\InvestmentCostCapitalBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\InvestmentCostOMABase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\InternalLabourBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TotalLabourBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionStationFinancialLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStationReliabilityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionElectronicFinancialConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\AdditionalCostsLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionStationReliabilityLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\OperationalFlexibilityReliabilityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStationSafetyConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionStationSafetyLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\AdditionalCostsCapitalBaselineBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostSavingsOMABaselineBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStabilityRiskConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\RiskAvoidanceLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionStabilityRiskLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\ElectricDistributionReliabilityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostAvoidanceCapitalOutcomeBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\PublicPerceptionConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStationEnvironmentalConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\OperationalFlexibilityReliabilityLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionStationEnvironmentalLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionLineFinancialLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionElectronicSafetyConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionLineReliabilityConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\LostGenerationConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\EmissionLevelsConsequenceBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostSavingsCapitalBaselineBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\CostAvoidanceOMABaselineBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionElectronicAutomaticOutcomeLikelihoodBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionStationAutomaticOutcomeLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionStationFinancialAutomaticOutcomeConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionFaultAutomaticOutcomeLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Generated Formula Base Classes\TransmissionLineFinancialAutomaticOutcomeConsequenceBase.cs" />
+    <Compile Include="Likelihood Formulas\Generated Formula Base Classes\TransmissionElectronicComplianceAutomaticOutcomeLikelihoodBase.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStabilityRiskConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\RiskAvoidanceLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionStabilityRiskLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\BenefitLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CustomerServiceConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\EmployeeEngagementAttractionRetentionConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\RenewableCapacityConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TotalCost.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\RiskConsequenceManual.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\RiskLikelihoodManual.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CapitalCost.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\RiskLikelihoodAutomaticOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\BusinessContinuityConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\RiskConsequenceAutomaticOutcome.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\ElectricDistributionReliabilityLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\ElectricDistributionReliabilityConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\PublicPerceptionConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\LostGenerationConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\EmissionLevelsConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\EmployeeProductivityConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionLineFinancialConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionLineReliabilityLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionLineSafetyConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionLineSafetyLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionFaultReliabilityConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionFaultReliabilityLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostSavingsCapitalOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostSavingsOMAOustcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStationFinancialConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostAvoidanceCapitalOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostAvoidanceOMAOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostAvoidanceCapitalBaseline.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostAvoidanceOMABaseline.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\AdditionalCostsCapitalOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\AdditionalCostsOMAOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\InvestmentCostCapital.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\InvestmentCostOMA.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionStationFinancialLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStationReliabilityConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionStationReliabilityLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStationSafetyConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionStationSafetyLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStationEnvironmentalConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionStationEnvironmentalLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionLineFinancialLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionLineReliabilityConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\GenericEndOfLifeCondition.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\GenericEndOfLifeConditionOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\InternalLabour.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TotalLabour.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostAvoidanceCapitalAutomaticOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostAvoidanceOMAAutomaticOutcome.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\RenewableCapacityKPIConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\EmissionLevelsKPIConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionFaultComplianceLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionFaultComplianceConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionElectronicSafetyConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionElectronicComplianceLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionElectronicComplianceConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionElectronicReliabilityConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionElectronicReliabilityLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionElectronicSafetyLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\OperationalFlexibilityReliabilityConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\OperationalFlexibilityReliabilityLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\AdditionalCostsLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionElectronicFinancialLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionElectronicFinancialConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionPowerFlowConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionPowerFlowLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\GenericDesignLifeBaseline.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStationAutomaticOutcomeCondition.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionElectronicAutomaticOutcomeCondition.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionLineAutomaticOutcomeCondition.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\AdditionalCostsCapitalBaseline.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\AdditionalCostsOMABaseline.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostSavingsCapitalBaseline.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\CostSavingsOMABaseline.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionStationAutomaticOutcomeLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionStationFinancialAutomaticOutcomeConsequence.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionElectronicFinancialAutomaticOutcomeConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionElectronicAutomaticOutcomeLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionLineAutomaticOutcomeLikelihood.cs" />
+    <Compile Include="Consequence Formulas\Formula Implementation Code\TransmissionLineFinancialAutomaticOutcomeConsequence.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionElectronicComplianceAutomaticOutcomeLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionFaultComplianceAutomaticOutcomeLikelihood.cs" />
+    <Compile Include="Likelihood Formulas\Formula Implementation Code\TransmissionFaultAutomaticOutcomeLikelihood.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

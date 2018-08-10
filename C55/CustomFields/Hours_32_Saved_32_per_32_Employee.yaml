@@ -1,0 +1,9 @@
+code: "Hours Saved per Employee"
+nameId: "Hours Saved per Employee"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+maximumNumber: 2000
+listItems: []

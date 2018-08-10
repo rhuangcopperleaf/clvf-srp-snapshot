@@ -1,0 +1,27 @@
+code: "Stability Issue"
+nameId: "Stability Issue"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Potential to cause localized non-BES instability"
+  nameId: "B) Potential to cause localized non-BES instability"
+  value: 2250
+  isObsolete: false
+- code: "Potential to cause localized power quality issues affecting dedicated substation\
+    \ customers"
+  nameId: "C) Potential to cause localized power quality issues affecting dedicated\
+    \ substation customers"
+  value: 1000
+  isObsolete: false
+- code: "Potential to cause localized power quality issues affecting residential substation\
+    \ customers"
+  nameId: "D) Potential to cause localized power quality issues affecting residential\
+    \ substation customers"
+  value: 300
+  isObsolete: false
+- code: "Violates WECC Criterion TPL-001-WECC-CRT-3"
+  nameId: "A) Violates WECC Criterion TPL-001-WECC-CRT-3"
+  value: 20000
+  isObsolete: false

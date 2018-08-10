@@ -1,0 +1,10 @@
+code: "POF"
+descriptionId: ""
+customFieldCode: "POF"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "If the probability o"
+promptTextId: "If the probability of failure is known, enter it here. (%)  NOTE: If\
+  \ a number is entered here, all other probabilities in this questionnaire will be\
+  \ ignored."

@@ -1,0 +1,9 @@
+code: "BES Risk Issue"
+descriptionId: ""
+customFieldCode: "BES Risk Issue"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Is this fault curren"
+promptTextId: "Is this fault current risk on the BES?"
+defaultValue: "0"

@@ -1,0 +1,8 @@
+code: "Cost Probability"
+descriptionId: ""
+customFieldCode: "Cost Probability"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of incurring this cost? (%)"

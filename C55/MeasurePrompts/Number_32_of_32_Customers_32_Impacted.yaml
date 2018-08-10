@@ -1,0 +1,8 @@
+code: "Number of Customers Impacted"
+descriptionId: ""
+customFieldCode: "Number of Customers Impacted"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Number of customers"
+promptTextId: "How many customers will be impacted?"

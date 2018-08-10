@@ -1,0 +1,9 @@
+code: "Probability of Danger"
+descriptionId: ""
+customFieldCode: "Probability of Danger"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability that the asset fails in a way that creates\
+  \ hazards to personnel in the area? (%)"

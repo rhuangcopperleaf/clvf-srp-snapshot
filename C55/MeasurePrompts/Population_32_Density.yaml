@@ -1,0 +1,8 @@
+code: "Population Density"
+descriptionId: ""
+customFieldCode: "Population Density"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the populati"
+promptTextId: "What is the population density where the line is located?"

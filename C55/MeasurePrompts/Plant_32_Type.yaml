@@ -1,0 +1,8 @@
+code: "Plant Type"
+descriptionId: ""
+customFieldCode: "Plant Type"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "The type of plant th"
+promptTextId: "The type of plant this investment is designed to avoid an outage on"

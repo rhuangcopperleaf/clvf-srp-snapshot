@@ -1,0 +1,30 @@
+code: "Public Perception Benefit"
+nameId: "Public Perception Benefit"
+descriptionId: "Public Perception Benefit"
+groupCode: "Employee & Public Perception"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Public Perception Benefit"
+  nameId: "Public Perception Benefit"
+  valueMeasureCode: "Public Perception Benefit"
+  sequence: 1
+questionnaires:
+- code: "PublicPerceptionBenefit-O"
+  nameId: "Public Perception Benefit"
+  descriptionId: "Public Perception Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Percentage Public"
+    sequence: 1
+  - measurePromptCode: "Benefit Probability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "Public Perception Benefit"
+    consequenceClassName: "PublicPerceptionConsequence"
+    likelihoodClassName: "BenefitLikelihood"

@@ -1,0 +1,13 @@
+code: "Internal Labour"
+nameId: "Internal Labour"
+descriptionId: "Internal Labour"
+color: "#004646"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Resource"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

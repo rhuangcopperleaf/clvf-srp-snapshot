@@ -1,0 +1,9 @@
+code: "Outage Duration"
+nameId: "Outage Duration"
+descriptionId: "What is the average outage duration for this load (h)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 1000
+listItems: []

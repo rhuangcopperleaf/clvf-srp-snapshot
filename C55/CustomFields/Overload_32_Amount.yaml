@@ -1,0 +1,9 @@
+code: "Overload Amount"
+nameId: "Overload Amount"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 1000000
+listItems: []

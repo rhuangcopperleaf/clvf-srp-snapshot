@@ -1,0 +1,9 @@
+code: "Design Life"
+descriptionId: ""
+customFieldCode: "Design Life"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What is the design l"
+promptTextId: "What is the design life for the asset? (Years)"
+defaultValue: "10"

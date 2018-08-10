@@ -1,0 +1,9 @@
+code: "Station Criticality"
+nameId: "Station Criticality"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+maximumNumber: 1000
+listItems: []

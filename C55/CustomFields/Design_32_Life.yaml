@@ -1,0 +1,9 @@
+code: "Design Life"
+nameId: "Design Life"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+maximumNumber: 1000
+listItems: []

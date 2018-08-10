@@ -1,0 +1,9 @@
+code: "Resolved First Contact"
+nameId: "Resolved First Contact"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 5000000
+listItems: []

@@ -1,0 +1,8 @@
+code: "Time to Repair"
+descriptionId: ""
+customFieldCode: "Time to Repair"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the time to"
+promptTextId: "What is the time to repair to original status? (Hours)"

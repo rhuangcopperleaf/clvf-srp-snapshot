@@ -1,0 +1,9 @@
+code: "Risk Avoidance Probability"
+nameId: "Risk Avoidance Probability"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

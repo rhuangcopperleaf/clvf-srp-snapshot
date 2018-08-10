@@ -1,0 +1,8 @@
+code: "Probability of Person in Danger"
+descriptionId: ""
+customFieldCode: "Probability of Person in Danger"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of a person in the danger zone? (%)"

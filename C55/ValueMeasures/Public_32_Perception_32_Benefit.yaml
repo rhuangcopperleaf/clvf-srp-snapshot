@@ -1,0 +1,13 @@
+code: "Public Perception Benefit"
+nameId: "Public Perception Benefit"
+descriptionId: "Public Perception Benefit"
+color: "#111111"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

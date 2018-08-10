@@ -1,0 +1,165 @@
+code: "Transmission Electronic Asset Risk"
+nameId: "Transmission Electronic Asset Risk"
+descriptionId: "Transmission Electronic Asset Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Transmission Electronic - Compliance"
+  nameId: "Transmission Electronic - Compliance"
+  valueMeasureCode: "Compliance Risk"
+  sequence: 5
+- code: "Transmission Electronic - Condition"
+  nameId: "Transmission Electronic - Condition"
+  valueMeasureCode: "Condition"
+  sequence: 2
+- code: "Transmission Electronic - Design Life"
+  nameId: "Transmission Electronic - Design Life"
+  valueMeasureCode: "Asset Design Life"
+  sequence: 1
+- code: "Transmission Electronic - Financial"
+  nameId: "Transmission Electronic - Financial"
+  valueMeasureCode: "Financial Risk"
+  sequence: 3
+- code: "Transmission Electronic - Reliability"
+  nameId: "Transmission Electronic - Reliability"
+  valueMeasureCode: "Transmission Reliability Risk"
+  sequence: 4
+- code: "Transmission Electronic - Safety"
+  nameId: "Transmission Electronic - Safety"
+  valueMeasureCode: "Safety Risk"
+  sequence: 6
+questionnaires:
+- code: "TransmissionElectronicAssetRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Transmission Electronic Asset Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Transmission Electronic - Compliance"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionElectronicComplianceAutomaticOutcomeLikelihood"
+  - measureCode: "Transmission Electronic - Condition"
+    consequenceClassName: "TransmissionElectronicAutomaticOutcomeCondition"
+  - measureCode: "Transmission Electronic - Financial"
+    consequenceClassName: "TransmissionElectronicFinancialAutomaticOutcomeConsequence"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+  - measureCode: "Transmission Electronic - Reliability"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionElectronicAutomaticOutcomeLikelihood"
+  - measureCode: "Transmission Electronic - Safety"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionElectronicAutomaticOutcomeLikelihood"
+- code: "TransmissionElectronicAssetRisk-B"
+  nameId: "Transmission Electronic Asset Risk"
+  descriptionId: "Transmission Electronic Asset Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "POF"
+    sequence: 1
+  - measurePromptCode: "COF"
+    sequence: 2
+  - measurePromptCode: "Type of Generation (Elec Asset)"
+    sequence: 3
+  - measurePromptCode: "Condition"
+    sequence: 4
+  - measurePromptCode: "Design Life"
+    sequence: 5
+  - measurePromptCode: "Number of Assets"
+    sequence: 6
+  - measurePromptCode: "Self Monitored"
+    sequence: 7
+  - measurePromptCode: "Manufacturer Support"
+    sequence: 8
+  - measurePromptCode: "Standard OS"
+    sequence: 9
+  - measurePromptCode: "Time to Repair"
+    sequence: 10
+  - measurePromptCode: "Additional Failures Required"
+    sequence: 11
+  - measurePromptCode: "Generation Curtailment"
+    sequence: 12
+  - measurePromptCode: "Transmission Load at Risk"
+    sequence: 13
+  - measurePromptCode: "Probability of Danger"
+    sequence: 14
+  - measurePromptCode: "NERC Dollars"
+    sequence: 15
+  - measurePromptCode: "Rationale"
+    sequence: 16
+  formulas:
+  - measureCode: "Transmission Electronic - Compliance"
+    consequenceClassName: "TransmissionElectronicComplianceConsequence"
+    likelihoodClassName: "TransmissionElectronicComplianceLikelihood"
+  - measureCode: "Transmission Electronic - Condition"
+    consequenceClassName: "GenericEndOfLifeCondition"
+  - measureCode: "Transmission Electronic - Design Life"
+    consequenceClassName: "GenericDesignLifeBaseline"
+  - measureCode: "Transmission Electronic - Financial"
+    consequenceClassName: "TransmissionElectronicFinancialConsequence"
+    likelihoodClassName: "TransmissionElectronicFinancialLikelihood"
+  - measureCode: "Transmission Electronic - Reliability"
+    consequenceClassName: "TransmissionElectronicReliabilityConsequence"
+    likelihoodClassName: "TransmissionElectronicReliabilityLikelihood"
+  - measureCode: "Transmission Electronic - Safety"
+    consequenceClassName: "TransmissionElectronicSafetyConsequence"
+    likelihoodClassName: "TransmissionElectronicSafetyLikelihood"
+- code: "TransmissionElectronicAssetRisk-O"
+  nameId: "Transmission Electronic Asset Risk"
+  descriptionId: "Transmission Electronic Asset Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "POF"
+    sequence: 1
+  - measurePromptCode: "COF"
+    sequence: 2
+  - measurePromptCode: "Type of Generation (Elec Asset)"
+    sequence: 3
+  - measurePromptCode: "Condition"
+    sequence: 4
+  - measurePromptCode: "Number of Assets"
+    sequence: 5
+  - measurePromptCode: "Self Monitored"
+    sequence: 6
+  - measurePromptCode: "Manufacturer Support"
+    sequence: 7
+  - measurePromptCode: "Standard OS"
+    sequence: 8
+  - measurePromptCode: "Time to Repair"
+    sequence: 9
+  - measurePromptCode: "Additional Failures Required"
+    sequence: 10
+  - measurePromptCode: "Generation Curtailment"
+    sequence: 11
+  - measurePromptCode: "Transmission Load at Risk"
+    sequence: 12
+  - measurePromptCode: "Probability of Danger"
+    sequence: 13
+  - measurePromptCode: "NERC Dollars"
+    sequence: 14
+  - measurePromptCode: "Rationale"
+    sequence: 15
+  - measurePromptCode: "Design Life"
+    sequence: 16
+  formulas:
+  - measureCode: "Transmission Electronic - Compliance"
+    consequenceClassName: "TransmissionElectronicComplianceConsequence"
+    likelihoodClassName: "TransmissionElectronicComplianceLikelihood"
+  - measureCode: "Transmission Electronic - Condition"
+    consequenceClassName: "GenericEndOfLifeConditionOutcome"
+  - measureCode: "Transmission Electronic - Financial"
+    consequenceClassName: "TransmissionElectronicFinancialConsequence"
+    likelihoodClassName: "TransmissionElectronicFinancialLikelihood"
+  - measureCode: "Transmission Electronic - Reliability"
+    consequenceClassName: "TransmissionElectronicReliabilityConsequence"
+    likelihoodClassName: "TransmissionElectronicReliabilityLikelihood"
+  - measureCode: "Transmission Electronic - Safety"
+    consequenceClassName: "TransmissionElectronicSafetyConsequence"
+    likelihoodClassName: "TransmissionElectronicSafetyLikelihood"

@@ -1,0 +1,8 @@
+code: "Station Voltage"
+descriptionId: ""
+customFieldCode: "Station Voltage"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the station"
+promptTextId: "What is the station voltage? (kV)"

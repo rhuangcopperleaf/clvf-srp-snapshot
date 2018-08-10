@@ -1,0 +1,8 @@
+code: "Lost Generation"
+descriptionId: ""
+customFieldCode: "Lost Generation"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected lost generation of the outage (in MWh)?"

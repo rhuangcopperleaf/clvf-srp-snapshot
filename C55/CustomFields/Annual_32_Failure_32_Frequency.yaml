@@ -1,0 +1,8 @@
+code: "Annual Failure Frequency"
+nameId: "Annual Failure Frequency"
+descriptionId: "Annual Failure Frequency"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100
+listItems: []

@@ -1,0 +1,9 @@
+code: "Lost Generation"
+nameId: "Lost Generation"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100000000
+listItems: []

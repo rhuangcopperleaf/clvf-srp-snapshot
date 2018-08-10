@@ -1,0 +1,8 @@
+code: "Annual Failure Frequency"
+descriptionId: "Annual Failure Frequency"
+customFieldCode: "Annual Failure Frequency"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual Failure Frequ"
+promptTextId: "How many failures per year will be avoided by implementing this project?"

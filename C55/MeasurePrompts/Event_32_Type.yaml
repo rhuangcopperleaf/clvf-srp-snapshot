@@ -1,0 +1,8 @@
+code: "Event Type"
+descriptionId: ""
+customFieldCode: "Event Type"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What type of event i"
+promptTextId: "What type of event is this investment designed to mitigate?"

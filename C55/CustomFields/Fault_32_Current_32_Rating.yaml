@@ -1,0 +1,9 @@
+code: "Fault Current Rating"
+nameId: "Fault Current Rating"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 1000000
+listItems: []

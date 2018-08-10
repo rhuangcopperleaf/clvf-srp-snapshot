@@ -1,0 +1,9 @@
+code: "Probability of Injury"
+nameId: "Probability of Injury"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

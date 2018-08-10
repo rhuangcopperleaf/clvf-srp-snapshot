@@ -1,0 +1,9 @@
+code: "Percentage Public"
+descriptionId: ""
+customFieldCode: "Percentage Public"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "If this investment i"
+promptTextId: "If this investment is improving aesthetics, reducing noise or EMF,\
+  \ what percentage of the local public will be affected by the improvement?"

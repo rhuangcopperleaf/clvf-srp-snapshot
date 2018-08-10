@@ -1,0 +1,9 @@
+code: "Probability of Collateral Damage"
+descriptionId: ""
+customFieldCode: "Probability of Collateral Damage"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of failure causing collateral damage? (%)"
+defaultValue: "100"

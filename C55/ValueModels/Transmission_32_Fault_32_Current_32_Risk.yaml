@@ -1,0 +1,87 @@
+code: "Transmission Fault Current Risk"
+nameId: "Transmission Fault Current Risk"
+descriptionId: "Transmission Fault Current Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Transmission Fault - Compliance"
+  nameId: "Transmission Fault - Compliance"
+  valueMeasureCode: "Compliance Risk"
+  sequence: 2
+- code: "Transmission Fault - Reliability"
+  nameId: "Transmission Fault - Reliability"
+  valueMeasureCode: "Transmission Reliability Risk"
+  sequence: 1
+questionnaires:
+- code: "TransmissionFaultCurrentRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Transmission Fault Current Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Transmission Fault - Compliance"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionFaultComplianceAutomaticOutcomeLikelihood"
+  - measureCode: "Transmission Fault - Reliability"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionFaultAutomaticOutcomeLikelihood"
+- code: "TransmissionFaultCurrentRisk-B"
+  nameId: "Transmission Fault Current Risk"
+  descriptionId: "Transmission Fault Current Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "BES Risk Issue"
+    sequence: 1
+  - measurePromptCode: "Type of Generation (Fault Current)"
+    sequence: 2
+  - measurePromptCode: "Fault Current Rating"
+    sequence: 3
+  - measurePromptCode: "Overload Amount"
+    sequence: 4
+  - measurePromptCode: "Required Generation Curtailment"
+    sequence: 5
+  - measurePromptCode: "Transmission Load at Risk"
+    sequence: 6
+  - measurePromptCode: "Rationale"
+    sequence: 7
+  formulas:
+  - measureCode: "Transmission Fault - Compliance"
+    consequenceClassName: "TransmissionFaultComplianceConsequence"
+    likelihoodClassName: "TransmissionFaultComplianceLikelihood"
+  - measureCode: "Transmission Fault - Reliability"
+    consequenceClassName: "TransmissionFaultReliabilityConsequence"
+    likelihoodClassName: "TransmissionFaultReliabilityLikelihood"
+- code: "TransmissionFaultCurrentRisk-O"
+  nameId: "Transmission Fault Current Risk"
+  descriptionId: "Transmission Fault Current Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "BES Risk Issue"
+    sequence: 1
+  - measurePromptCode: "Type of Generation (Fault Current)"
+    sequence: 2
+  - measurePromptCode: "Fault Current Rating"
+    sequence: 3
+  - measurePromptCode: "Overload Amount"
+    sequence: 4
+  - measurePromptCode: "Required Generation Curtailment"
+    sequence: 5
+  - measurePromptCode: "Transmission Load at Risk"
+    sequence: 6
+  - measurePromptCode: "Rationale"
+    sequence: 7
+  formulas:
+  - measureCode: "Transmission Fault - Compliance"
+    consequenceClassName: "TransmissionFaultComplianceConsequence"
+    likelihoodClassName: "TransmissionFaultComplianceLikelihood"
+  - measureCode: "Transmission Fault - Reliability"
+    consequenceClassName: "TransmissionFaultReliabilityConsequence"
+    likelihoodClassName: "TransmissionFaultReliabilityLikelihood"

@@ -1,0 +1,9 @@
+code: "Call Center Cost"
+nameId: "Call Center Cost"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 1000
+listItems: []

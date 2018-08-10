@@ -1,0 +1,31 @@
+code: "Consequence of Collateral Damage"
+nameId: "Consequence of Collateral Damage"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "<$100K annually"
+  nameId: "A) <$100K annually"
+  value: 0
+  isObsolete: false
+- code: ">$1.5 million annually"
+  nameId: "D) >$1.5 million annually"
+  value: 2250
+  isObsolete: false
+- code: ">$10 million annually"
+  nameId: "F) >$10 million annually"
+  value: 20000
+  isObsolete: false
+- code: ">$100K annually"
+  nameId: "B) >$100K annually"
+  value: 300
+  isObsolete: false
+- code: ">$3 million annually"
+  nameId: "E) >$3 million annually"
+  value: 6500
+  isObsolete: false
+- code: ">$500K annually"
+  nameId: "C) >$500K annually"
+  value: 1000
+  isObsolete: false

@@ -1,0 +1,74 @@
+code: "Electric Distribution Reliability Risk"
+nameId: "Electric Distribution Reliability Risk"
+descriptionId: "Electric Distribution Reliability Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Electric Distribution Reliability Risk"
+  nameId: "Electric Distribution Reliability Risk"
+  valueMeasureCode: "Electric Distribution Reliability Risk"
+  sequence: 1
+questionnaires:
+- code: "ElectricDistributionReliabilityRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Electric Distribution Reliability Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Electric Distribution Reliability Risk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "ElectricDistributionReliabilityRisk-B"
+  nameId: "Electric Distribution Reliability Risk"
+  descriptionId: "Electric Distribution Reliability Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Annual Failure Frequency"
+    sequence: 1
+  - measurePromptCode: "Peak Lost Load"
+    sequence: 2
+  - measurePromptCode: "Type of Load"
+    sequence: 3
+  - measurePromptCode: "Outage Duration"
+    sequence: 4
+  - measurePromptCode: "Lost Redundancy Duration"
+    sequence: 5
+  - measurePromptCode: "Number of Customers Impacted"
+    sequence: 6
+  - measurePromptCode: "Rationale"
+    sequence: 7
+  formulas:
+  - measureCode: "Electric Distribution Reliability Risk"
+    consequenceClassName: "ElectricDistributionReliabilityConsequence"
+    likelihoodClassName: "ElectricDistributionReliabilityLikelihood"
+- code: "ElectricDistributionReliabilityRisk-O"
+  nameId: "Electric Distribution Reliability Risk"
+  descriptionId: "Electric Distribution Reliability Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Annual Failure Frequency"
+    sequence: 1
+  - measurePromptCode: "Peak Lost Load"
+    sequence: 2
+  - measurePromptCode: "Type of Load"
+    sequence: 3
+  - measurePromptCode: "Outage Duration"
+    sequence: 4
+  - measurePromptCode: "Lost Redundancy Duration"
+    sequence: 5
+  - measurePromptCode: "Number of Customers Impacted"
+    sequence: 6
+  - measurePromptCode: "Rationale"
+    sequence: 7
+  formulas:
+  - measureCode: "Electric Distribution Reliability Risk"
+    consequenceClassName: "ElectricDistributionReliabilityConsequence"
+    likelihoodClassName: "ElectricDistributionReliabilityLikelihood"

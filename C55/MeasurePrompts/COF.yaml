@@ -1,0 +1,9 @@
+code: "COF"
+descriptionId: ""
+customFieldCode: "COF"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "If the consequence i"
+promptTextId: "If the consequence is known, enter it here.  NOTE: If a number is entered\
+  \ here, all other consequences in this questionnaire will be ignored."

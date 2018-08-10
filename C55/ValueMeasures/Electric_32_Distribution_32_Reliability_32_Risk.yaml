@@ -1,0 +1,13 @@
+code: "Electric Distribution Reliability Risk"
+nameId: "Electric Distribution Reliability Risk"
+descriptionId: "Electric Distribution Reliability Risk"
+color: "#BD244F"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

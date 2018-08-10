@@ -1,0 +1,10 @@
+code: "Type of Generation (Fault Current)"
+descriptionId: "Select from natural gas, coal, or hydro. If unsure or mixed, use natural\
+  \ gas."
+customFieldCode: "Type of Generation"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "If the fault current"
+promptTextId: "If the fault current can be reduced to safe levels by curtailing generation\
+  \ then what type of Generation would be Curtailed? (natural gas, coal or hydro)"

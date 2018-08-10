@@ -1,0 +1,9 @@
+code: "Generation Curtailment"
+nameId: "Generation Curtailment"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 4
+isCurrencyValue: false
+maximumNumber: 1000000
+listItems: []

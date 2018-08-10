@@ -1,0 +1,10 @@
+code: "Transformers Capacity"
+descriptionId: "Only if option B or C was selected in the first question and if it\
+  \ is a voltage violation."
+customFieldCode: "Transformers Capacity"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "For voltage violatio"
+promptTextId: "For voltage violation: What is the total capacity of the transformers\
+  \ exposed to the voltage violation? (MVA)"

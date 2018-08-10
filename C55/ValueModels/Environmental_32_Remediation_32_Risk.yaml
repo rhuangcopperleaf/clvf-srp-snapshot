@@ -1,0 +1,58 @@
+code: "Environmental Remediation Risk"
+nameId: "Environmental Remediation Risk"
+descriptionId: "Environmental Remediation Risk"
+groupCode: "Environmental Stewardship"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Environmental Remediation Risk"
+  nameId: "Environmental Remediation Risk"
+  valueMeasureCode: "Environmental Remediation Risk"
+  sequence: 1
+questionnaires:
+- code: "EnvironmentalRemediationRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Environmental Remediation Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Environmental Remediation Risk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "EnvironmentalRemediationRisk-B"
+  nameId: "Environmental Remediation Risk"
+  descriptionId: "Environmental Remediation Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Manual Risk Consequence"
+    sequence: 1
+  - measurePromptCode: "Manual Risk Probability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "Environmental Remediation Risk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "EnvironmentalRemediationRisk-O"
+  nameId: "Environmental Remediation Risk"
+  descriptionId: "Environmental Remediation Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Manual Risk Consequence"
+    sequence: 1
+  - measurePromptCode: "Manual Risk Probability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "Environmental Remediation Risk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

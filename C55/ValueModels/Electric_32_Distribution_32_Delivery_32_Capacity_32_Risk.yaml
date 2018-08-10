@@ -1,0 +1,58 @@
+code: "Electric Distribution Delivery Capacity Risk"
+nameId: "Electric Distribution Delivery Capacity Risk"
+descriptionId: "Electric Distribution Delivery Capacity Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Electric Distribution Delivery Capacity Risk"
+  nameId: "Electric Distribution Delivery Capacity Risk"
+  valueMeasureCode: "Electric Distribution Delivery Capacity Risk"
+  sequence: 1
+questionnaires:
+- code: "ElectricDistributionDeliveryCapacityRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Electric Distribution Delivery Capacity Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Electric Distribution Delivery Capacity Risk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "ElectricDistributionDeliveryCapacityRisk-B"
+  nameId: "Electric Distribution Delivery Capacity Risk"
+  descriptionId: "Electric Distribution Delivery Capacity Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Manual Risk Consequence"
+    sequence: 1
+  - measurePromptCode: "Manual Risk Probability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "Electric Distribution Delivery Capacity Risk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "ElectricDistributionDeliveryCapacityRisk-O"
+  nameId: "Electric Distribution Delivery Capacity Risk"
+  descriptionId: "Electric Distribution Delivery Capacity Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Manual Risk Consequence"
+    sequence: 1
+  - measurePromptCode: "Manual Risk Probability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "Electric Distribution Delivery Capacity Risk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

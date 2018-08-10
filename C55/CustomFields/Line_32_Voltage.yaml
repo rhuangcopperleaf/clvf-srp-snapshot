@@ -1,0 +1,23 @@
+code: "Line Voltage"
+nameId: "Line Voltage"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "115 kV"
+  nameId: "C) 115 kV"
+  value: 115
+  isObsolete: false
+- code: "230 kV"
+  nameId: "B) 230 kV"
+  value: 230
+  isObsolete: false
+- code: "500 kV"
+  nameId: "A) 500 kV"
+  value: 500
+  isObsolete: false
+- code: "69 kV"
+  nameId: "D) 69 kV"
+  value: 69
+  isObsolete: false

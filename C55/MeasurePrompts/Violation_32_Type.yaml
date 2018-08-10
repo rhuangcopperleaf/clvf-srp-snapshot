@@ -1,0 +1,8 @@
+code: "Violation Type"
+descriptionId: ""
+customFieldCode: "Violation Type"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What type of violati"
+promptTextId: "What type of violation is this project expected to mitigate?"

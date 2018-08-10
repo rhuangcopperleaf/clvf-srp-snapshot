@@ -1,0 +1,9 @@
+code: "Station Criticality"
+descriptionId: ""
+customFieldCode: "Station Criticality"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the station"
+promptTextId: "What is the station criticality?"
+defaultValue: "1"

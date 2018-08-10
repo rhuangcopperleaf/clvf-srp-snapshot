@@ -1,0 +1,9 @@
+code: "Length of Line"
+nameId: "Length of Line"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 10000
+listItems: []

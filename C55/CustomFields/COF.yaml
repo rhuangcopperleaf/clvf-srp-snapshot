@@ -1,0 +1,9 @@
+code: "COF"
+nameId: "COF"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 100000000
+listItems: []

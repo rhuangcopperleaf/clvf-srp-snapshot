@@ -1,0 +1,13 @@
+code: "Total Labour"
+nameId: "Total Labour"
+descriptionId: "Total Labour"
+color: "#004647"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Resource"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

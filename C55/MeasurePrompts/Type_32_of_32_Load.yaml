@@ -1,0 +1,8 @@
+code: "Type of Load"
+descriptionId: ""
+customFieldCode: "Type of Load"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What type of load is"
+promptTextId: "What type of load is at risk?"

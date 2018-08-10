@@ -1,0 +1,8 @@
+code: "Equipment Type"
+descriptionId: ""
+customFieldCode: "Equipment Type"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the asset ty"
+promptTextId: "What is the asset type?"

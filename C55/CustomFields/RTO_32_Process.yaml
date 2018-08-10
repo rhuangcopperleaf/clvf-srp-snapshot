@@ -1,0 +1,8 @@
+code: "RTO Process"
+nameId: "RTO Process"
+descriptionId: "RTO Process"
+type: "Text"
+isMultiline: true
+isCloneable: true
+maximumLength: 2000
+listItems: []

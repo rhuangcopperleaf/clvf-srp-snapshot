@@ -1,0 +1,9 @@
+code: "Avoided Inquiries"
+descriptionId: ""
+customFieldCode: "Avoided Inquiries"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many calls or in"
+promptTextId: "How many calls or inquiries into the call centre can be avoided as\
+  \ a result of this Project?"

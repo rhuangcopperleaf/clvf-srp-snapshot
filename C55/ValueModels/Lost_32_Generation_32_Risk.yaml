@@ -1,0 +1,62 @@
+code: "Lost Generation Risk"
+nameId: "Lost Generation Risk"
+descriptionId: "Lost Generation Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Lost Generation Risk"
+  nameId: "Lost Generation Risk"
+  valueMeasureCode: "Lost Generation Risk"
+  sequence: 1
+questionnaires:
+- code: "LostGenerationRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Lost Generation Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Lost Generation Risk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "LostGenerationRisk-B"
+  nameId: "Lost Generation Risk"
+  descriptionId: "Lost Generation Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Plant Type"
+    sequence: 1
+  - measurePromptCode: "Lost Generation"
+    sequence: 2
+  - measurePromptCode: "Risk Avoidance Probability"
+    sequence: 3
+  - measurePromptCode: "Rationale"
+    sequence: 4
+  formulas:
+  - measureCode: "Lost Generation Risk"
+    consequenceClassName: "LostGenerationConsequence"
+    likelihoodClassName: "RiskAvoidanceLikelihood"
+- code: "LostGenerationRisk-O"
+  nameId: "Lost Generation Risk"
+  descriptionId: "Lost Generation Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "Plant Type"
+    sequence: 1
+  - measurePromptCode: "Lost Generation"
+    sequence: 2
+  - measurePromptCode: "Risk Avoidance Probability"
+    sequence: 3
+  - measurePromptCode: "Rationale"
+    sequence: 4
+  formulas:
+  - measureCode: "Lost Generation Risk"
+    consequenceClassName: "LostGenerationConsequence"
+    likelihoodClassName: "RiskAvoidanceLikelihood"

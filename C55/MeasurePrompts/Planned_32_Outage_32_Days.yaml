@@ -1,0 +1,9 @@
+code: "Planned Outage Days"
+descriptionId: "Number of planned days of outage in the area per year."
+customFieldCode: "Planned Outage Days"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Approximately how ma"
+promptTextId: "Approximately how many planned outage days per year are anticipated\
+  \ in this area?"

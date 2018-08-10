@@ -1,0 +1,9 @@
+code: "Peak Lost Load"
+descriptionId: "Expected peak lost load or the peak load at risk."
+customFieldCode: "Load at Risk"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "Peak load at risk (k"
+promptTextId: "For each of the failures what would be the expected Peak Lost Load,\
+  \ or in the case of redundant equipment the Peak load at risk (kVA)?"

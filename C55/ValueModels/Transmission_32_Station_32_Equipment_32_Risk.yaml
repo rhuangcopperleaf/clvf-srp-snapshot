@@ -1,0 +1,161 @@
+code: "Transmission Station Equipment Risk"
+nameId: "Transmission Station Equipment Risk"
+descriptionId: "Transmission Station Equipment Risk"
+groupCode: "Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "Transmission Station - Condition"
+  nameId: "Transmission Station - Condition"
+  valueMeasureCode: "Condition"
+  sequence: 2
+- code: "Transmission Station - Design Life"
+  nameId: "Transmission Station - Design Life"
+  valueMeasureCode: "Asset Design Life"
+  sequence: 1
+- code: "Transmission Station - Environmental"
+  nameId: "Transmission Station - Environmental"
+  valueMeasureCode: "Environmental Remediation Risk"
+  sequence: 6
+- code: "Transmission Station - Financial"
+  nameId: "Transmission Station - Financial"
+  valueMeasureCode: "Financial Risk"
+  sequence: 3
+- code: "Transmission Station - Reliability"
+  nameId: "Transmission Station - Reliability"
+  valueMeasureCode: "Transmission Reliability Risk"
+  sequence: 4
+- code: "Transmission Station - Safety"
+  nameId: "Transmission Station - Safety"
+  valueMeasureCode: "Safety Risk"
+  sequence: 5
+questionnaires:
+- code: "TransmissionStationEquipmentRisk-A"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Transmission Station Equipment Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Transmission Station - Condition"
+    consequenceClassName: "TransmissionStationAutomaticOutcomeCondition"
+  - measureCode: "Transmission Station - Environmental"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionStationAutomaticOutcomeLikelihood"
+  - measureCode: "Transmission Station - Financial"
+    consequenceClassName: "TransmissionStationFinancialAutomaticOutcomeConsequence"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+  - measureCode: "Transmission Station - Reliability"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionStationAutomaticOutcomeLikelihood"
+  - measureCode: "Transmission Station - Safety"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "TransmissionStationAutomaticOutcomeLikelihood"
+- code: "TransmissionStationEquipmentRisk-B"
+  nameId: "Transmission Station Equipment Risk"
+  descriptionId: "Transmission Station Equipment Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "POF"
+    sequence: 1
+  - measurePromptCode: "COF"
+    sequence: 2
+  - measurePromptCode: "Condition"
+    sequence: 3
+  - measurePromptCode: "Design Life"
+    sequence: 4
+  - measurePromptCode: "Station Voltage"
+    sequence: 5
+  - measurePromptCode: "Equipment Type"
+    sequence: 6
+  - measurePromptCode: "Time to Repair"
+    sequence: 7
+  - measurePromptCode: "Probability of Collateral Damage"
+    sequence: 8
+  - measurePromptCode: "Consequence of Collateral Damage"
+    sequence: 9
+  - measurePromptCode: "Probability of Danger"
+    sequence: 10
+  - measurePromptCode: "Probability of Person in Danger"
+    sequence: 11
+  - measurePromptCode: "Probability of Injury"
+    sequence: 12
+  - measurePromptCode: "Probability of Environment Risk"
+    sequence: 13
+  - measurePromptCode: "Consequence of Environment Risk"
+    sequence: 14
+  - measurePromptCode: "Rationale"
+    sequence: 15
+  formulas:
+  - measureCode: "Transmission Station - Condition"
+    consequenceClassName: "GenericEndOfLifeCondition"
+  - measureCode: "Transmission Station - Design Life"
+    consequenceClassName: "GenericDesignLifeBaseline"
+  - measureCode: "Transmission Station - Environmental"
+    consequenceClassName: "TransmissionStationEnvironmentalConsequence"
+    likelihoodClassName: "TransmissionStationEnvironmentalLikelihood"
+  - measureCode: "Transmission Station - Financial"
+    consequenceClassName: "TransmissionStationFinancialConsequence"
+    likelihoodClassName: "TransmissionStationFinancialLikelihood"
+  - measureCode: "Transmission Station - Reliability"
+    consequenceClassName: "TransmissionStationReliabilityConsequence"
+    likelihoodClassName: "TransmissionStationReliabilityLikelihood"
+  - measureCode: "Transmission Station - Safety"
+    consequenceClassName: "TransmissionStationSafetyConsequence"
+    likelihoodClassName: "TransmissionStationSafetyLikelihood"
+- code: "TransmissionStationEquipmentRisk-O"
+  nameId: "Transmission Station Equipment Risk"
+  descriptionId: "Transmission Station Equipment Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "POF"
+    sequence: 1
+  - measurePromptCode: "COF"
+    sequence: 2
+  - measurePromptCode: "Condition"
+    sequence: 3
+  - measurePromptCode: "Station Voltage"
+    sequence: 4
+  - measurePromptCode: "Equipment Type"
+    sequence: 5
+  - measurePromptCode: "Time to Repair"
+    sequence: 6
+  - measurePromptCode: "Probability of Collateral Damage"
+    sequence: 7
+  - measurePromptCode: "Probability of Danger"
+    sequence: 8
+  - measurePromptCode: "Consequence of Collateral Damage"
+    sequence: 9
+  - measurePromptCode: "Probability of Person in Danger"
+    sequence: 10
+  - measurePromptCode: "Probability of Injury"
+    sequence: 11
+  - measurePromptCode: "Probability of Environment Risk"
+    sequence: 12
+  - measurePromptCode: "Consequence of Environment Risk"
+    sequence: 13
+  - measurePromptCode: "Rationale"
+    sequence: 14
+  - measurePromptCode: "Design Life"
+    sequence: 15
+  formulas:
+  - measureCode: "Transmission Station - Condition"
+    consequenceClassName: "GenericEndOfLifeConditionOutcome"
+  - measureCode: "Transmission Station - Environmental"
+    consequenceClassName: "TransmissionStationEnvironmentalConsequence"
+    likelihoodClassName: "TransmissionStationEnvironmentalLikelihood"
+  - measureCode: "Transmission Station - Financial"
+    consequenceClassName: "TransmissionStationFinancialConsequence"
+    likelihoodClassName: "TransmissionStationFinancialLikelihood"
+  - measureCode: "Transmission Station - Reliability"
+    consequenceClassName: "TransmissionStationReliabilityConsequence"
+    likelihoodClassName: "TransmissionStationReliabilityLikelihood"
+  - measureCode: "Transmission Station - Safety"
+    consequenceClassName: "TransmissionStationSafetyConsequence"
+    likelihoodClassName: "TransmissionStationSafetyLikelihood"

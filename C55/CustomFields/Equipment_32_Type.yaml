@@ -1,0 +1,31 @@
+code: "Equipment Type"
+nameId: "Equipment Type"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Battery"
+  nameId: "E) Battery"
+  value: 0.1
+  isObsolete: false
+- code: "Breaker"
+  nameId: "B) Breaker"
+  value: 1
+  isObsolete: false
+- code: "Instrument Transformer"
+  nameId: "F) Instrument Transformer"
+  value: 0.3
+  isObsolete: false
+- code: "Relay"
+  nameId: "D) Relay"
+  value: 0.5
+  isObsolete: false
+- code: "Switchgear"
+  nameId: "C) Switchgear"
+  value: 1
+  isObsolete: false
+- code: "Transformer"
+  nameId: "A) Transformer"
+  value: 2
+  isObsolete: false

@@ -1,0 +1,9 @@
+code: "Damaging Fault Repair Cost ($)"
+nameId: "Damaging Fault Repair Cost ($)"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 10000000000
+listItems: []

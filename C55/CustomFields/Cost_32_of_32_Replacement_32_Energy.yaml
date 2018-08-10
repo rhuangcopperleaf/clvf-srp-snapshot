@@ -1,0 +1,7 @@
+code: "Cost of Replacement Energy"
+nameId: "Cost of Replacement Energy"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

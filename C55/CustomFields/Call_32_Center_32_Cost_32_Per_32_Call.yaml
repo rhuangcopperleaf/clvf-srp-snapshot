@@ -1,0 +1,9 @@
+code: "Call Center Cost Per Call"
+nameId: "Call Center Cost Per Call"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 100
+listItems: []

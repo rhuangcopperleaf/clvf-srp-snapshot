@@ -1,0 +1,8 @@
+code: "Fault Current Rating"
+descriptionId: "Fault Current Rating of the asset"
+customFieldCode: "Fault Current Rating"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the fault cu"
+promptTextId: "What is the fault current rating? (Amps)"

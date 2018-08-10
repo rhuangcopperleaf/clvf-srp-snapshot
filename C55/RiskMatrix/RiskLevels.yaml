@@ -1,0 +1,12 @@
+- code: "Low"
+  nameId: "Low"
+  minThreshold: 0
+  backgroundColor: "#338A4C"
+- code: "Medium"
+  nameId: "Medium"
+  minThreshold: 164.794
+  backgroundColor: "#F0ED69"
+- code: "High"
+  nameId: "High"
+  minThreshold: 10743.722
+  backgroundColor: "#CF4242"

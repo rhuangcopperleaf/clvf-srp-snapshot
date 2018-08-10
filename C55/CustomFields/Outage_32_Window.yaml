@@ -1,0 +1,10 @@
+code: "Outage Window"
+nameId: "Outage Window"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+minimumNumber: 0
+maximumNumber: 1000
+listItems: []
